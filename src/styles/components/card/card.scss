@@ -1,0 +1,37 @@
+@import '../../common';
+
+$card-shadow-color: rgba($black, .1);
+
+.one-card {
+  padding: 24px;
+  background: $white;
+  border-radius: 2px;
+  border: 1px solid $border-color-light;
+  box-shadow: 0 1px 4px 0 $card-shadow-color;
+
+  &--hover {
+    box-shadow: none;
+    &:hover {
+      box-shadow: 0 1px 4px 0 $card-shadow-color;
+    }
+  }
+
+  &--never {
+    box-shadow: none;
+  }
+
+  &__title {
+    padding: 0;
+    margin: 0 0 8px;
+    font-size: 22px;
+    line-height: 20px;
+    color: $text-primary;
+  }
+
+  &__content {
+    font-size: 14px;
+    line-height: 22px;
+    color: $text-secondary;
+  }
+
+}

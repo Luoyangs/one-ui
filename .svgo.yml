@@ -1,0 +1,18 @@
+plugins:
+  - removeTitle: true
+  - removeDesc: true
+  - convertPathData: true
+  - convertShapeToPath: true
+  - cleanupIDs: true
+  - removeComments: true
+  - removeDoctype: true
+  - removeEmptyAttrs: true
+  - removeEmptyText: true
+  - removeEmptyContainers: true
+  - removeViewBox: false
+  - removeDimensions: true
+  - cleanupEnableBackground: true
+  - removeStyleElement: true
+  - removeUselessStrokeAndFill: true
+  - removeAttrs:
+      attrs: '(fill|stroke|class|id)'

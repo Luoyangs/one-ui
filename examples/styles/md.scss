@@ -1,0 +1,142 @@
+code {
+  background-color: #f9fafc;
+  padding: 0 4px;
+  border: 1px solid #eaeefb;
+  border-radius: 4px;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+}
+
+.hljs {
+  line-height: 1.8;
+  font-size: 12px;
+  padding: 18px 24px;
+  border: solid 1px #eaeefb;
+  margin-bottom: 25px;
+  border-radius: 4px;
+  -webkit-font-smoothing: auto;
+}
+
+.one-demos {
+  margin: 0 16px;
+  padding: 20px 16px;
+  overflow-y: scroll;
+  h2 {
+    font-size: 28px;
+    color: #1f2d3d;
+    margin: 8px 0;
+  }
+  h3 {
+    font-size: 22px;
+    margin: 55px 0 20px;
+  }
+  h2, h3, h4, h5 {
+    font-weight: normal;
+    color: #1f2f3d;
+    &:hover a {
+      opacity: .4;
+    }
+    a {
+      opacity: 0;
+      cursor: pointer;
+      &:hover {
+        opacity: .4;
+      }
+    }
+  }
+  p {
+    font-size: 14px;
+    color: #5e6d82;
+    line-height: 1.5em;
+  }
+  table {
+    width: 100%;
+    background-color: #fff;
+    color: #5e6d82;
+    font-size: 14px;
+    border-collapse: collapse;
+    overflow: auto;
+    margin-bottom: 50px;
+    th {
+      border-top: 1px solid #f3f7fa;
+      border-bottom: 1px solid #f3f7fa;
+      padding: 16px 8px;
+      text-align: left;
+      &:first-child {
+        width: 240px;
+        max-width: 240px;
+      }
+    }
+    td{
+      border-top: 1px solid #f3f7fa;
+      border-bottom: 1px solid #f3f7fa;
+      padding: 10px 8px;
+    }
+  }
+  ol {
+    padding: 8px 12px;
+    li {
+      line-height: 28px;
+      color: #888888;
+    }
+  }
+  .tip {
+    padding: 8px 16px;
+    background-color: #ECF8FF;
+    border-radius: 4px;
+    border-left: #009688 5px solid;
+    margin: 20px 0;
+
+    code {
+      background-color: rgba(255, 255, 255, .7);
+      color: #445368;
+    }
+  }
+  .warning {
+    padding: 8px 16px;
+    background-color: #fff6f7;
+    border-radius: 4px;
+    border-left: #FE6C6F 5px solid;
+    margin: 20px 0;
+    code {
+      background-color: rgba(255, 255, 255, .7);
+      color: #009688;
+    }
+  }
+}
+.demo {
+  margin: 20px 0;
+}
+@media (max-width: 1140px) {
+  .container,
+  .page-container {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .container,
+  .page-container {
+    padding: 0 20px;
+  }
+
+  #app.is-component .headerWrapper .container {
+    padding: 0 12px;
+  }
+}
+.flex {
+  display: flex;
+}
+.infinite-scroll {
+  height: 520px;
+  width: 600px;
+  border: 1px solid red;
+  .list-item {
+    line-height: 50px;
+    border-bottom: 1px solid red;
+  }
+}

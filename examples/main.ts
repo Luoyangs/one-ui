@@ -1,24 +1,18 @@
 import Vue from 'vue';
-import VueRouter from 'vue-router';
 
+import router from './router';
 import App from './App.vue';
+
 import OneUI from 'one-ui';
 Vue.use(OneUI);
 import '@src/styles/index.scss';
+import 'highlight.js/scss/a11y-light.scss';
 
-Vue.use(VueRouter);
-// const router = new VueRouter({
-//   mode: 'history',
-//   routes: [
-//     {
-//       path: '',
-//       component: Home
-//     }
-//   ]
-// });
+import DemoBlock from './common/demo-block.vue';
+Vue.component(DemoBlock.name, DemoBlock);
 
 const _ = new Vue({
   el: '#app',
-  // router,
+  router,
   render: h => h(App)
 });

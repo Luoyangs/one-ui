@@ -1,4 +1,4 @@
-import Card from './src/card.vue';
+import Card from './src/card';
 import { VueConstructor } from 'vue';
 
 export type InstallFunction = (Vue: VueConstructor, options?: any) => void;

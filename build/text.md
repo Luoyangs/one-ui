@@ -4,7 +4,8 @@
 | Property | Description | Type | Accepted Values | Default |
 |:--|:--|:--|:--|:--|
 | title | the title of card | String | - | - |
-| shadow | the shadow style of card | string | `always`,`hover`,`never` | `always` |
+| gray | the gray type of card | Boolean | - | false |
+| border | the border type of card | Boolean | - | false |
 
 ### Slot
 | Name | Description | Parameters |

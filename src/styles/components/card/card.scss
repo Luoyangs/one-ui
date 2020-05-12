@@ -1,6 +1,6 @@
 @import '../../common';
 
-$card-shadow-color: rgba($black, .1);
+$card-shadow-color: rgba($black, .12);
 
 .one-card {
   padding: 24px;
@@ -18,6 +18,20 @@ $card-shadow-color: rgba($black, .1);
 
   &--never {
     box-shadow: none;
+  }
+
+  &--small {
+    padding: 12px;
+
+    .one-card__title {
+      font-size: 14px;
+      line-height: 18px;
+    }
+
+    .one-card__content {
+      font-size: 12px;
+      line-height: 16px;
+    }
   }
 
   &__title {

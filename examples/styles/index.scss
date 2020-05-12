@@ -1,0 +1,48 @@
+@import './reset';
+@import './md';
+
+.common-demo-block {
+  margin-top: 16px;
+}
+.source {
+  overflow: auto;
+  .one-card {
+    width: 240px;
+    float: left;
+    margin-right: 20px;
+  }
+  .color-table {
+    th, td {
+      text-align: center;
+      vertical-align: top;
+    }
+    .color-box {
+      padding: 20px 0;
+      .color {
+        display: inline-block;
+        width: 56px;
+        height: 56px;
+        margin-bottom: 16px;
+        border-radius: 100%;
+      }
+      .text {
+        line-height: 16px;
+        font-size: 14px;
+        color: #333333;
+      }
+      .text2 {
+        font-size: 12px;
+        line-height: 14px;
+        color: #999999;
+      }
+    }
+  }
+  .font-table {
+    th, td {
+      vertical-align: middle;
+    }
+    .font {
+      padding: 20px 0;
+    }
+  }
+}

@@ -1,19 +1,16 @@
-# OneUI
+## OneUI
 
-Based on Typescript + Vue2.5 components collections, you can like by using it or dislike by using it.
-
-### 配置markdown文档
-
+Once you like, you will like forever
 
 ### 组件实现规划
 #### 1. 通用 General
-1. [ ] Color
+1. [ ✔ ] Color
 2. [ ] Button
 3. [ ] Avatar
 4. [ ] Col
 5. [ ] Row
 5. [ ] Icon
-6. [x] Card
+6. [ ✔ ] Card
 #### 2. 导航 Navigation
 1. [ ] Header
 2. [ ] Sidebar
@@ -60,9 +57,10 @@ Based on Typescript + Vue2.5 components collections, you can like by using it or
 10. [ ] Drawer
 11. [ ] Loading
 
+
 ### 项目目录结构
 
-```javascript
+```
 one-ui
 |-- build                    // 构建脚本目录
 |-- config                   // 构建相关配置
@@ -73,7 +71,7 @@ one-ui
 |   |   |-- src
 |   |   |-- index.ts
 |   |   |-- README.md
-|   |-- ..
+|   |-- ...
 |-- src                      // 源码目录
 |   |-- index.ts             // 主入口
 |   |-- utils

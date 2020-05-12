@@ -21,11 +21,30 @@ module.exports = merge(webpackBaseConfig, {
     filename: 'app.js'
   },
   devtool: config.dev.devtool,
-  // module: {
-  //   rules: cssLoaderConfig.styleLoaders({
-  //     sourceMap: config.dev.cssSourceMap
-  //   })
-  // },
+  module: {
+    rules: [
+      {
+        test: /\.css$/,
+        loader: 'css-loader'
+      },
+      {
+        test: /\.md$/,
+        use: [
+          {
+            loader: 'vue-loader',
+            options: {
+              compilerOptions: {
+                preserveWhitespace: false
+              }
+            }
+          },
+          {
+            loader: path.resolve(__dirname, './md-loader/index.js')
+          }
+        ]
+      }
+    ]
+  },
   plugins: [
     new webpack.DefinePlugin({
       'process.env': {

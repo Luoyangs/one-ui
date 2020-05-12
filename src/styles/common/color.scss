@@ -20,9 +20,14 @@ $text-lighter: #BBBBBB;                 // for timestamps and descriptive conten
 $text-disabled: #CCCCCC;                // 20%: for disabled text, or other text that needs to be weakened visually
 
 $success: #55CC77;
-$complement: #00BFA5;
+$warning: #FFBF00;
 $error: #FF4742;
-$info: #BABABA;
+$info: #2673DD;
 
-$border-color: #DBDBDB;
-$border-color-light: #EBEEF5
+$success-bg: #EBF9EF;
+$warning-bg: #FFF7E0;
+$error-bg: #FFE9E8;
+$info-bg: #E5EEFB;
+
+$border-color: #E5E5E5;
+$border-color-light: #EEEEEE

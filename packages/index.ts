@@ -1,9 +1,13 @@
 import { VueConstructor } from 'vue';
 
 import Card from './card';
+import Button from './button';
+import Icon from './icon';
 
 const components = [
-  Card
+  Card,
+  Button,
+  Icon
 ];
 
 const install = (Vue: VueConstructor, option?: any) => {
@@ -16,6 +20,8 @@ const install = (Vue: VueConstructor, option?: any) => {
 
 export {
   Card,
+  Button,
+  Icon,
   install
 };
 

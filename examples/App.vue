@@ -18,8 +18,7 @@ import LeftMenu from './common/left-menu.vue';
     LeftMenu
   }
 })
-export default class App extends Vue {
-}
+export default class App extends Vue {}
 </script>
 
 <style lang="scss">

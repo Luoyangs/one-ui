@@ -70,6 +70,7 @@
     "markdown-it-container": "^2.0.0",
     "mini-css-extract-plugin": "^0.9.0",
     "node-sass": "^4.12.0",
+    "one-svgs": "^1.0.3",
     "opn": "^6.0.0",
     "optimize-css-assets-webpack-plugin": "^5.0.3",
     "postcss-loader": "^3.0.0",

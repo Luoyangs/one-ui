@@ -1,16 +1,22 @@
 
 import { VueConstructor } from 'vue';
 import {
-  Card
+  Card,
+  Button,
+  Icon
 } from '../packages';
 import { InstallFunctionOptions } from 'one-ui/card';
 
 export {
-  Card
+  Card,
+  Button,
+  Icon
 };
 
 const components = [
-  Card
+  Card,
+  Button,
+  Icon
 ];
 
 const install = (Vue: VueConstructor, option?: any) => {

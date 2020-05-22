@@ -1,0 +1,6 @@
+// ********** transition ********** //
+$duration-time-fast: .2s !default;
+$duration-time-slow: .36s !default;
+$ease-in-out: cubic-bezier(.42, 0, .58, 1) !default;
+$default-all-fast-transition: all $duration-time-fast $ease-in-out !default;
+$default-all-slow-transition: all $duration-time-slow $ease-in-out !default;

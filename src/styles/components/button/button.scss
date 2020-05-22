@@ -1,0 +1,198 @@
+@import '../../common';
+
+$small-padding: 8px;
+$small-height: 24px;
+$small-min-width: 64px;
+$default-padding: 16px;
+$default-height: 32px;
+$default-min-width: 72px;
+$large-height: 40px;
+$large-min-width: 80px;
+$x-large-height: 48px;
+
+@mixin button-style($color, $background-color, $border-color) {
+  @include button-before-style;
+  color: $color;
+  background-color: $background-color;
+  border-color: $border-color;
+}
+
+@mixin button-before-style($cover-color: $black) {
+  $hover-cover-color: rgba(transparent, 0);
+  $active-cover-color: rgba(transparent, 0);
+
+  @if $cover-color {
+    $hover-cover-color: rgba($cover-color, .04);
+    $active-cover-color: rgba($cover-color, .08);
+  }
+
+  &:hover::before {
+    background-color: $hover-cover-color;
+  }
+
+  &:active::before {
+    background-color: $active-cover-color;
+  }
+}
+
+@mixin button-focus-style($shadow-color) {
+  $focus-box-shadow: 0 0 0 2px $white, 0 0 0 4px rgba($shadow-color, .3);
+
+  html[data-focus-visible] &:focus { // sass-lint:disable-line force-attribute-nesting no-qualifying-elements
+    box-shadow: $focus-box-shadow;
+  }
+}
+
+.one-button {
+  @include button-style($text-primary, $white, $border-color);
+  @include button-focus-style($primary);
+
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: $default-height;
+  min-width: $default-min-width;
+  padding: 0 $default-padding;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  outline: none;
+  box-sizing: border-box;
+  transition: $default-all-fast-transition;
+  appearance: none;
+  user-select: none;
+
+  &::before {
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    bottom: -1px;
+    left: -1px;
+    border-radius: inherit;
+    content: '';
+  }
+
+  &.disabled,
+  &.disabled:hover {
+    cursor: not-allowed;
+    opacity: .5;
+
+    &::before {
+      display: none;
+    }
+  }
+
+  // icon button
+  & .one-icon {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+  }
+
+  & .one-icon + span,
+  & span + .one-icon {
+    margin-left: 8px;
+  }
+
+  // button size 48px 80px 16px
+  &--x-large {
+    height: $x-large-height;
+    min-width: $large-min-width;
+    padding: 0 $default-padding;
+    font-size: 16px;
+
+    & .one-icon + span,
+    & span + .one-icon {
+      margin-left: 8px;
+    }
+  }
+
+  // button size 40px 72px 16px
+  &--large {
+    height: $large-height;
+    min-width: $large-min-width;
+    padding: 0 $default-padding;
+    font-size: 14px;
+  }
+
+  // button size 24px 64px 8px
+  &--small {
+    height: $small-height;
+    min-width: $small-min-width;
+    padding: 0 $small-padding;
+    font-size: 12px;
+
+    & .one-icon {
+      width: 12px;
+      height: 12px;
+    }
+  }
+
+  // button type
+  &--primary {
+    @include button-style($white, $primary, $primary);
+  }
+
+  &--link,
+  &--text {
+    @include button-style($blue-light, transparent, transparent);
+    @include button-before-style(false);
+
+    height: unset;
+    min-width: unset;
+    padding: 0;
+    font-weight: normal;
+
+    &.one-button {
+      &:hover::before {
+        background-color: transparent;
+      }
+    }
+
+    & .one-icon + span,
+    & span + .one-icon {
+      margin-left: 6px;
+    }
+  }
+
+  &--link {
+    text-decoration: underline;
+  }
+
+  &--outline {
+    @include button-style($primary, $white, $primary);
+    @include button-before-style($primary);
+  }
+
+  &--dashed {
+    @include button-style($blue-light, $white, $blue-light);
+    @include button-before-style($blue-light);
+    border-style: dashed;
+  }
+
+  &--ghost {
+    @include button-style($white, transparent, $white);
+    @include button-before-style($white);
+  }
+
+  // button style
+  &--circle {
+    min-width: unset;
+    padding: 8px;
+    line-height: 0;
+    border-radius: 100%;
+  }
+
+  &--block {
+    width: 100%;
+  }
+
+}

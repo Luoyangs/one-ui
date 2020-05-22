@@ -1,5 +1,7 @@
 import Vue from 'vue';
 import { OneCard } from './card';
+import { OneButton } from './button';
+import { OneIcon } from './icon';
 
 export interface InstallationOptions {
   store?: any;
@@ -14,3 +16,5 @@ export interface InstallationOptions {
 export function install(vue: typeof Vue, options: InstallationOptions): void
 
 export class Card extends OneCard { }
+export class Button extends OneButton { }
+export class Icon extends OneIcon { }

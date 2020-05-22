@@ -12,5 +12,13 @@ export const componentsRouterConfig: RouteConfig[] = [
   {
     path: '/card',
     component: () => import(/* webpackChunkName: "card" */ '../docs/general/card.md')
+  },
+  {
+    path: '/button',
+    component: () => import(/* webpackChunkName: "button" */ '../docs/general/button.md')
+  },
+  {
+    path: '/icon',
+    component: () => import(/* webpackChunkName: "icon" */ '../docs/general/icon.md')
   }
 ];

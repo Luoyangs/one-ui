@@ -2,7 +2,7 @@ import { VueConstructor } from 'vue';
 
 import Card from './card';
 import Button from './button';
-import Icon from './icon';
+import Icon from './icon/index';
 
 const components = [
   Card,

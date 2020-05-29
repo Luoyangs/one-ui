@@ -15,5 +15,17 @@ module.exports = {
         ]
       ],
     },
+    production: {
+      presets: [
+        [
+          '@vue/app',
+          {
+            'targets': {
+              node: true
+            }
+          }
+        ]
+      ]
+    }
   }
 }

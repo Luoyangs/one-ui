@@ -37,6 +37,8 @@
     "build",
     "config",
     "lib",
-    "*.config.js"
+    "*.config.js",
+    "**/icon/update.js",
+    "**/icon/svg/index.js"
   ]
 }

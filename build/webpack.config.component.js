@@ -24,11 +24,10 @@ module.exports = merge(otherWebpackConfig, {
     path: resolve(assetsRoot),
     filename: '[name]/index.js',
     library: packageName,
-    libraryTarget: 'umd'
+    libraryTarget: 'commonjs2'
   },
   externals: [
     function(context, request, callback) {
-      console.log('ex', context, request, callback)
       if (new RegExp('^one-ui/').test(request)) {
         const regular = new RegExp(`^one-ui/${assetsRoot}/(one-)?([a-z-]+)$`)
         return callback(null, 'commonjs' + request.replace(regular, `${packageName}/${assetsRoot}/$2`))

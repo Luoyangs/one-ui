@@ -39,19 +39,6 @@ Enable disabled a button as you like
 ```
 :::
 
-### Full Width
-Enable button with full width of block
-
-:::demo We prefer to apply `full-width` to thus four types like you want
-```html
-<div class="button-example">
-  <one-button full-width>Default</one-button>
-  <one-button type="primary" full-width>Primary</one-button>
-  <one-button type="outline" full-width>Outline</one-button>
-  <one-button type="dashed" full-width>Dashed</one-button>
-</div>
-```
-:::
 
 ### Support Size
 Enable button with different size
@@ -98,5 +85,20 @@ Enable button with icon
     }
   }
 </script>
+```
+:::
+
+
+### Full Width
+Enable button with full width of block
+
+:::demo We prefer to apply `full-width` to thus four types like you want
+```html
+<div class="button-example">
+  <one-button full-width>Default</one-button>
+  <one-button type="primary" full-width>Primary</one-button>
+  <one-button type="outline" full-width>Outline</one-button>
+  <one-button type="dashed" full-width>Dashed</one-button>
+</div>
 ```
 :::

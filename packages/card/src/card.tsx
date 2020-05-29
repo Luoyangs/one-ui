@@ -1,12 +1,13 @@
 
 import { Component, Prop, Vue } from 'vue-property-decorator';
+import { CardOptions } from './types';
 
 @Component({
   name: 'OneCard'
 })
 export default class OneCard extends Vue {
   @Prop(String)
-  private title: string;
+  private title: Pick<CardOptions, 'title'>;
 
   @Prop({
     type: String,
@@ -15,10 +16,10 @@ export default class OneCard extends Vue {
       return ['always', 'hover', 'never'].includes(val);
     }
   })
-  private shadow: string;
+  private shadow: Pick<CardOptions, 'shadow'>;
 
   @Prop(Boolean)
-  private small: boolean;
+  private small: Pick<CardOptions, 'small'>;
 
   get containerClass() {
     const { shadow, small } = this;

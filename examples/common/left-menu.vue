@@ -1,6 +1,6 @@
 <template>
   <div class="left-menu">
-    <div class="menu-scroller">
+    <div class="menu-scroller" :style="style">
       <ul class="menu-list">
         <div class="menu-search">
           <!-- <div class="search-input" contenteditable @input="handleSearch"></div> -->
@@ -87,7 +87,23 @@ import { Vue, Component, Prop } from 'vue-property-decorator';
 
 @Component
 export default class LeftMenu extends Vue {
+  @Prop(Boolean) private isExpanded: boolean;
+
   private search: string = '';
+
+  get style() {
+    if (this.isExpanded) {
+      return {
+        'width': '120px',
+        'padding-left': '16px'
+      };
+    } else {
+      return {
+        'width': '0',
+        'padding-left': '0'
+      };
+    }
+  }
 
   private handleSearch(event: any) {
     this.search = event.target.textContent;
@@ -97,14 +113,12 @@ export default class LeftMenu extends Vue {
 
 <style lang="scss" scoped>
 .left-menu {
+  position: relative;
   height: 100vh;
-  overflow: hidden;
   background: #ffffff;
   padding: 0;
   .menu-scroller {
-    width: 220px;
     height: 100%;
-    padding-left: 16px;
     overflow-y: auto;
     overflow-x: hidden;
   }
@@ -134,9 +148,9 @@ export default class LeftMenu extends Vue {
           position: relative;
           &::after {
             position: absolute;
-            right: 20px;
+            right: 2px;
             content: '';
-            width: 20px;
+            width: 2px;
             height: 24px;
             background: #009688
           }

@@ -28,7 +28,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+  overflow: hidden;
 }
 ol, ul {
 	list-style: none;
@@ -37,7 +37,6 @@ blockquote, q {
 	quotes: none;
 }
 a {
-  color: #009688;
   text-decoration: none;
   cursor: pointer;
 }

@@ -1,11 +1,9 @@
-
-import { VueConstructor } from 'vue';
 import {
   Card,
   Button,
-  Icon
+  Icon,
+  install
 } from '../packages';
-import { InstallFunctionOptions } from 'one-ui/card';
 
 export {
   Card,
@@ -13,20 +11,9 @@ export {
   Icon
 };
 
-const components = [
+export default {
   Card,
   Button,
-  Icon
-];
-
-const install = (Vue: VueConstructor, option?: any) => {
-  components.forEach((component: any) => {
-    if (component.install) {
-      component.install(Vue, option);
-    }
-  });
-};
-
-export default {
+  Icon,
   install
-} as InstallFunctionOptions;
+};

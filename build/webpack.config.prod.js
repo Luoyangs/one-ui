@@ -1,6 +1,7 @@
 const webpack = require('webpack')
 const merge = require('webpack-merge')
 const TenserPlugin = require('terser-webpack-plugin')
+const ProgressBarPlugin = require('progress-bar-webpack-plugin')
 const webpackBaseConfig = require('./webpack.config.base')
 const { resolve } = require('./utils')
 const packageName = require('../package.json').name
@@ -12,7 +13,7 @@ const webpackConfig = merge(webpackBaseConfig, {
   entry: './src/index.ts',
   output: {
     path: resolve(assetsRoot),
-    filename: 'one-ui.min.js',
+    filename: '[name].js',
     library: packageName,
     libraryTarget: 'umd'
   },
@@ -38,8 +39,11 @@ const webpackConfig = merge(webpackBaseConfig, {
     ]
   },
   plugins: [
+    new ProgressBarPlugin(),
     new webpack.DefinePlugin({
-      'process.env.NODE_ENV': '"production"'
+      'process.env': {
+        NODE_ENV: '"production"'
+      }
     })
   ]
 })

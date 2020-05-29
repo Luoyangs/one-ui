@@ -28,7 +28,8 @@
     "no-shadowed-variable": false,
     "no-unused-variable": false,
     "member-ordering": false,
-    "member-access": [true, "no-public"]
+    "member-access": [true, "no-public"],
+    "no-var-requires": false
   },
   "jsRules": {
     "semicolon": [true, "never"]

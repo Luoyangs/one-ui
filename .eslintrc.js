@@ -5,9 +5,6 @@ module.exports = {
   env: {
     node: true
   },
-  extends: [
-    'plugin:vue/essential',
-  ],
   rules: {
     'semi': 0,
     'space-before-function-paren': 0,
@@ -24,5 +21,9 @@ module.exports = {
     }
   ],
   parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint']
+  plugins: ['@typescript-eslint'],
+  extends: [
+    'prettier/@typescript-eslint',
+    'plugin:@typescript-eslint/recommended'
+  ]
 };

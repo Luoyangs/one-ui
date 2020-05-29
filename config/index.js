@@ -12,7 +12,7 @@ module.exports = {
   dev: {
     mode: 'development',
     port: 8000,
-    autoOpenBrower: true,
+    autoOpenBrower: false,
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     proxyTable: {},

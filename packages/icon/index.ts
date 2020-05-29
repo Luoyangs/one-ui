@@ -1,12 +1,11 @@
 import Icon from './src/icon';
 import { VueConstructor } from 'vue';
+import { InstallFunction } from '@src/core';
 import { IconOptions } from './src/types';
 
-export type InstallFunction = (Vue: VueConstructor, options?: IconOptions) => void;
-
-export interface InstallFunctionOptions {
+interface InstallFunctionOptions {
   [key: string]: any;
-  install?: InstallFunction;
+  install?: InstallFunction<IconOptions>;
 }
 
 (Icon as InstallFunctionOptions).install = (Vue: VueConstructor) => {

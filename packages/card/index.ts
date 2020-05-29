@@ -1,11 +1,11 @@
 import Card from './src/card';
 import { VueConstructor } from 'vue';
+import { InstallFunction } from '@src/core';
+import { CardOptions } from './src/types';
 
-export type InstallFunction = (Vue: VueConstructor, options?: any) => void;
-
-export interface InstallFunctionOptions {
+interface InstallFunctionOptions {
   [key: string]: any;
-  install?: InstallFunction;
+  install?: InstallFunction<CardOptions>;
 }
 
 (Card as InstallFunctionOptions).install = (Vue: VueConstructor) => {
@@ -13,4 +13,3 @@ export interface InstallFunctionOptions {
 };
 
 export default Card;
-// export default install(Card);

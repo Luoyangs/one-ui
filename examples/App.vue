@@ -1,8 +1,9 @@
 <template>
   <div class="app">
-    <left-menu></left-menu>
+    <left-menu :isExpanded="isExpanded"></left-menu>
     <div class="app-container">
       <div class="container-scroller">
+        <main-header :isExpanded="isExpanded" @toggle-menu="isExpanded=!isExpanded" />
         <router-view></router-view>
       </div>
     </div>
@@ -11,14 +12,17 @@
 
 <script lang="ts">
 import { Component, Prop, Vue } from 'vue-property-decorator';
-import LeftMenu from './common/left-menu.vue';
+import { LeftMenu, MainHeader } from './common';
 
 @Component({
   components: {
-    LeftMenu
+    LeftMenu,
+    MainHeader
   }
 })
-export default class App extends Vue {}
+export default class App extends Vue {
+  private isExpanded: boolean = true;
+}
 </script>
 
 <style lang="scss">
@@ -28,10 +32,6 @@ export default class App extends Vue {}
   display: flex;
   height: 100vh;
   font-family: 'Roboto';
-  .left-menu {
-    width: 200px;
-    flex: 0 0 200px;
-  }
   .app-container {
     flex: 1;
     overflow: hidden;

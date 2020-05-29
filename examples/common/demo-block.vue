@@ -2,6 +2,7 @@
   <div class="common-demo-block">
     <div class="source">
       <slot name="source"></slot>
+      <img class="demo-block-control" @click="isExpanded = !isExpanded" src="https://gw.alipayobjects.com/zos/rmsportal/wSAkBuJFbdxsosKKpqyq.svg">
     </div>
     <div class="meta" :style="{ height: isExpanded ? 0: 'auto' }">
       <div class="desc" v-if="$slots.default">
@@ -10,13 +11,6 @@
       <div class="highlight">
         <slot name="highlight"></slot>
       </div>
-    </div>
-    <div ref="control"
-      class="demo-block-control"
-      @click="isExpanded = !isExpanded">
-      <transition name="text-slide">
-        <span>{{ isExpanded ? '显示代码' : '隐藏代码' }}</span>
-      </transition>
     </div>
   </div>
 </template>
@@ -29,6 +23,7 @@ import { Vue, Component, Watch } from 'vue-property-decorator';
 })
 export default class DemoBlock extends Vue {
   private isExpanded: boolean = true;
+  private expandLabel = '<>';
 
   private renderAnchorHref() {
     const anchors = document.querySelectorAll('h2 a, h3 a, h4 a, h5 a');
@@ -49,13 +44,9 @@ export default class DemoBlock extends Vue {
 
 <style lang="scss">
 .common-demo-block {
-  border: solid 1px #ebebeb;
-  border-radius: 3px;
   transition: 0.2s;
-  &:hover {
-    box-shadow: 0 0 8px 0 rgba(232, 237, 250, 0.6),
+  box-shadow: 0 0 8px 0 rgba(232, 237, 250, 0.6),
       0 2px 4px 0 rgba(232, 237, 250, 0.5);
-  }
   code {
     font-family: Menlo, Monaco, Consolas, Courier, monospace;
   }
@@ -64,6 +55,19 @@ export default class DemoBlock extends Vue {
   }
   .source {
     padding: 24px;
+    position: relative;
+    > img.demo-block-control {
+      position: absolute;
+      right: 0;
+      cursor: pointer;
+      font-size: 16px;
+      transform: translateX(-30px);
+      width: 18px;
+      height: 18px;
+      line-height: 44px;
+      transition: 0.3s;
+      display: inline-block;
+    }
   }
   .meta {
     background-color: #fafafa;
@@ -113,57 +117,6 @@ export default class DemoBlock extends Vue {
       &::before {
         content: none;
       }
-    }
-  }
-  .demo-block-control {
-    border-top: solid 1px #eaeefb;
-    height: 44px;
-    box-sizing: border-box;
-    background-color: #fff;
-    border-bottom-left-radius: 4px;
-    border-bottom-right-radius: 4px;
-    text-align: center;
-    margin-top: -1px;
-    color: #d3dce6;
-    cursor: pointer;
-    position: relative;
-    &.is-fixed {
-      position: fixed;
-      bottom: 0;
-      width: 868px;
-    }
-    i {
-      font-size: 16px;
-      line-height: 44px;
-      transition: 0.3s;
-      &.hovering {
-        transform: translateX(-40px);
-      }
-    }
-    > span {
-      position: absolute;
-      transform: translateX(-30px);
-      font-size: 14px;
-      line-height: 44px;
-      transition: 0.3s;
-      display: inline-block;
-    }
-    &:hover {
-      color: #009688;
-      background-color: #f9fafc;
-    }
-    &.text-slide-leave-active {
-      opacity: 0;
-      transform: translateX(10px);
-    }
-    .control-button {
-      line-height: 26px;
-      position: absolute;
-      top: 0;
-      right: 0;
-      font-size: 14px;
-      padding-left: 5px;
-      padding-right: 25px;
     }
   }
 }

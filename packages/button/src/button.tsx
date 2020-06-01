@@ -1,6 +1,6 @@
 import { Component, Prop, Mixins } from 'vue-property-decorator';
 import FormItemMixin from '@src/mixins/form-item';
-import { BUTTON_TYPES, ButtonType } from '@src/constants';
+import { BUTTON_TYPES } from '@src/constants';
 import { ButtonOptions } from './types';
 
 @Component({

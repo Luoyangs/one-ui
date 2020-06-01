@@ -93,7 +93,7 @@ exports.example = {
 :::demo 这里还有描述
 `+
 '\n```html\n\
-<one-<%component%></one-<%component%>>\n\n\
+<one-<%component%>></one-<%component%>>\n\n\
 <script lang="ts">\n\
   export default {\n\
   }\n\

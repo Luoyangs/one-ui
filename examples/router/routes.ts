@@ -20,6 +20,9 @@ export const componentsRouterConfig: RouteConfig[] = [
   {
     path: '/icon',
     component: () => import(/* webpackChunkName: "icon" */ '../docs/general/icon.md')
+}, {
+  path: '/avatar',
+  component: () => import(/* webpackChunkName: "avatar" */ '../docs/general/avatar.md')
     // <% component temp position %>
   }
 ];

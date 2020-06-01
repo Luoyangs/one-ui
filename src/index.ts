@@ -3,6 +3,7 @@ import {
   Button,
   Card,
   Icon,
+  Avatar,
   // <% combination temp end %>
 } from '../packages';
 import { VueConstructor } from 'vue';
@@ -12,6 +13,7 @@ const components = [
   Button,
   Card,
   Icon,
+  Avatar,
   // <% combination temp end %>
 ];
 
@@ -28,6 +30,7 @@ export {
   Button,
   Card,
   Icon,
+  Avatar,
   // <% combination temp end %>
 };
 
@@ -36,6 +39,7 @@ export default {
   Button,
   Card,
   Icon,
+  Avatar,
   // <% combination temp end %>
   install
 };

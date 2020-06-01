@@ -99,7 +99,7 @@
     "webpack-hot-middleware": "^2.25.0",
     "webpack-merge": "^4.2.2",
     "write": "^2.0.0",
-    "yarn": "^1.19.1"
+    "yarn": "^1.22.0"
   },
   "config": {
     "commitizen": {

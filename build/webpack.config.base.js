@@ -81,7 +81,7 @@ module.exports = {
     extensions: ['.js', '.ts', '.tsx', '.json', '.vue'],
     alias: {
       vue: 'vue/dist/vue.common.js',
-      [packageName]: resolve('packages'),
+      [packageName]: resolve('src'),
       '@public': resolve('public'),
       '@src': resolve('src'),
       '@config': resolve('config')

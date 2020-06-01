@@ -1,23 +1,7 @@
-## One Icon
-This is independent package which supports sereval svg icons for one-ui, you can install it independently as you like in your project
-```bash
-# install package
-yarn add one-svgs
+## Icon
+请配合one-svgs库一起使用，详情请参考one-svgs
 
-# or use npm
-npm install one-svgs -S
-```
-
-```js
-# use icon
-import xxIcon from 'one-svgs/svg/xx.svg';
-
-<one-icon :svg="xxIcon" />
-
-# import more icons by once
-import { xxIcon, yyIcon, zzIcon } from 'one-svgs/svg';
-
-```
-
-### Development
->Notice: Once you add/delete icon from svg folder, please run `node update.js` to update `svg/index.js` and `module.json`.
+### Props
+| Property | Description | Type | Accepted Values | Default |
+|:--|:--|:--|:--|:--|
+| svg | the svg source of card | String | - | - |

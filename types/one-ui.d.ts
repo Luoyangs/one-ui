@@ -1,7 +1,9 @@
 import Vue from 'vue';
-import { OneCard } from './card';
-import { OneButton } from './button';
-import { OneIcon } from './icon';
+// <% combination temp start %>
+export { default as Button } from './button';
+export { default as Card } from './card';
+export { default as Icon } from './icon';
+// <% combination temp end %>
 
 export interface InstallationOptions {
   store?: any;
@@ -14,7 +16,3 @@ export interface InstallationOptions {
  * Call `Vue.use(OneUI)` to install.
  */
 export function install(vue: typeof Vue, options: InstallationOptions): void
-
-export class Card extends OneCard { }
-export class Button extends OneButton { }
-export class Icon extends OneIcon { }

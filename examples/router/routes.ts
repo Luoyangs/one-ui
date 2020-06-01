@@ -20,5 +20,6 @@ export const componentsRouterConfig: RouteConfig[] = [
   {
     path: '/icon',
     component: () => import(/* webpackChunkName: "icon" */ '../docs/general/icon.md')
+    // <% component temp position %>
   }
 ];

@@ -1,19 +1,41 @@
 import {
-  Card,
+  // <% combination temp start %>
   Button,
+  Card,
   Icon,
-  install
+  // <% combination temp end %>
 } from '../packages';
+import { VueConstructor } from 'vue';
+
+const components = [
+  // <% combination temp start %>
+  Button,
+  Card,
+  Icon,
+  // <% combination temp end %>
+];
+
+const install = (Vue: VueConstructor, options?: any) => {
+  components.forEach((component: any) => {
+    if (component.install) {
+      component.install(Vue, options);
+    }
+  });
+};
 
 export {
-  Card,
+  // <% combination temp start %>
   Button,
-  Icon
+  Card,
+  Icon,
+  // <% combination temp end %>
 };
 
 export default {
-  Card,
+  // <% combination temp start %>
   Button,
+  Card,
   Icon,
+  // <% combination temp end %>
   install
 };

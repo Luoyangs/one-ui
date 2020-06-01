@@ -2,7 +2,7 @@ import Vue from 'vue';
 import { OneUIComponent } from './common';
 import { ButtonType } from '@src/constants';
 
-export declare class OneButton extends OneUIComponent {
+declare class OneButton extends OneUIComponent {
   type: ButtonType;
   disabled?: boolean;
   fullWidth?: boolean;
@@ -13,3 +13,5 @@ export declare class OneButton extends OneUIComponent {
   href?: string;
   target?: string;
 }
+
+export default OneButton;

@@ -2,7 +2,10 @@
   "name": "one-svgs",
   "version": "1.0.3",
   "description": "An independent package which supports sereval svg icons",
-  "main": "./svg",
+  "main": "svg/index.js",
+  "scripts": {
+    "update": "node update.js"
+  },
   "files": [
     "svg",
     "module.json"

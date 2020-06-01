@@ -11,7 +11,8 @@
     "build": "NODE_ENV=production node build/build.js",
     "build-comp": "cross-env NODE_ENV=production-comp webpack --process --color --config build/webpack.config.component.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint --ext .js,.vue src"
+    "lint": "eslint --ext .js,.vue src",
+    "new": "node build/new-component.js"
   },
   "repository": {
     "type": "git",
@@ -97,6 +98,7 @@
     "webpack-dev-middleware": "^3.7.2",
     "webpack-hot-middleware": "^2.25.0",
     "webpack-merge": "^4.2.2",
+    "write": "^2.0.0",
     "yarn": "^1.19.1"
   },
   "config": {

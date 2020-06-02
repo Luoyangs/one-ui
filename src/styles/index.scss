@@ -1,1 +1,6 @@
-@import './components';
+@import './color';
+@import './mixin';
+@import './animation';
+
+/* component styles */
+@import '../../packages/style';

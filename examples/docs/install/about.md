@@ -5,11 +5,11 @@ Once you like, you will like forever
 ### 组件实现规划
 #### 1. 通用 General
 1. [ ✔ ] Color
-2. [ ] Button
-3. [ ] Avatar
+2. [ ✔ ] Button
+3. [ ✔ ] Avatar
 4. [ ] Col
 5. [ ] Row
-5. [ ] Icon
+5. [ ✔ ] Icon
 6. [ ✔ ] Card
 #### 2. 导航 Navigation
 1. [ ] Header

@@ -8,6 +8,16 @@ export { default as <%COMPONENT%> } from './<%component%>/index';
 `
 }
 
+exports.packageStyle = {
+  path: 'packages/style.scss',
+  temp:
+`
+<% for %>
+@import './<%component%>/style';
+<% /for %>
+`
+}
+
 exports.typing = {
   path: 'types/one-ui.d.ts',
   temp:
@@ -27,3 +37,5 @@ exports.index = {
   <% /for %>
 `
 }
+
+

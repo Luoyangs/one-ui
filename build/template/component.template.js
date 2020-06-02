@@ -30,6 +30,24 @@ export interface <%COMPONENT%>Options {
 `
 }
 
+exports.entryStyle = {
+  path: 'packages/<%component%>/style/<%component%>.scss',
+  temp:
+`
+.one-<%component%> {
+
+}
+`
+}
+
+exports.entryStyleIndex = {
+  path: 'packages/<%component%>/style/index.scss',
+  temp:
+`
+@import "./<%component%>.scss";
+`
+}
+
 exports.page = {
   path: 'packages/<%component%>/src/<%component%>.tsx',
   temp:

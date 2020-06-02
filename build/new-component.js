@@ -86,6 +86,8 @@ function writeCombinedFile(config) {
 
 writeSingleFile(componentTemplate.entry)
 writeSingleFile(componentTemplate.entryTypes)
+writeSingleFile(componentTemplate.entryStyle)
+writeSingleFile(componentTemplate.entryStyleIndex)
 writeSingleFile(componentTemplate.page)
 writeSingleFile(componentTemplate.readme)
 writeSingleFile(componentTemplate.example)
@@ -93,6 +95,7 @@ writeSingleFile(componentTemplate.exampleRouter)
 writeSingleFile(componentTemplate.types)
 
 writeCombinedFile(combinationTemplate.package)
+writeCombinedFile(combinationTemplate.packageStyle)
 writeCombinedFile(combinationTemplate.index)
 writeCombinedFile(combinationTemplate.typing)
 

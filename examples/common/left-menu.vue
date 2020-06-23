@@ -15,7 +15,7 @@
             <li><router-link to="/color">Color</router-link></li>
             <li><router-link to="/button">Button</router-link></li>
             <li><router-link to="/avatar">Avatar</router-link></li>
-            <li><router-link to="/layout">Layout</router-link></li>
+            <li><router-link to="/grid">Grid</router-link></li>
             <li><router-link to="/icon">Icon</router-link></li>
             <li><router-link to="/card">Card</router-link></li>
           </ul>

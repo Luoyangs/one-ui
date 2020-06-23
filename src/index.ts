@@ -1,19 +1,21 @@
 import {
   // <% combination temp start %>
+  Avatar,
   Button,
   Card,
   Icon,
-  Avatar,
+  Grid,
   // <% combination temp end %>
 } from '../packages';
 import { VueConstructor } from 'vue';
 
 const components = [
   // <% combination temp start %>
+  Avatar,
   Button,
   Card,
   Icon,
-  Avatar,
+  Grid,
   // <% combination temp end %>
 ];
 
@@ -27,19 +29,21 @@ const install = (Vue: VueConstructor, options?: any) => {
 
 export {
   // <% combination temp start %>
+  Avatar,
   Button,
   Card,
   Icon,
-  Avatar,
+  Grid,
   // <% combination temp end %>
 };
 
 export default {
   // <% combination temp start %>
+  Avatar,
   Button,
   Card,
   Icon,
-  Avatar,
+  Grid,
   // <% combination temp end %>
   install
 };

@@ -32,9 +32,9 @@ exports.index = {
   path: 'src/index.ts',
   temp:
 `
-  <% for %>
-  <%COMPONENT%>,
-  <% /for %>
+<% for %>
+<%COMPONENT%>,
+<% /for %>
 `
 }
 

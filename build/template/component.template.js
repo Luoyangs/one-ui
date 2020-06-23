@@ -1,8 +1,7 @@
 exports.entry = {
   path: 'packages/<%component%>/index.ts',
   temp:
-`
-import <%COMPONENT%> from './src/<%component%>';
+`import <%COMPONENT%> from './src/<%component%>';
 import { VueConstructor } from 'vue';
 import { InstallFunction } from '@src/core';
 import { <%COMPONENT%>Options } from './src/types';
@@ -23,8 +22,7 @@ export default <%COMPONENT%>;
 exports.entryTypes = {
   path: 'packages/<%component%>/src/types.ts',
   temp:
-`
-export interface <%COMPONENT%>Options {
+`export interface <%COMPONENT%>Options {
   xx: string;
 }
 `
@@ -33,8 +31,7 @@ export interface <%COMPONENT%>Options {
 exports.entryStyle = {
   path: 'packages/<%component%>/style/<%component%>.scss',
   temp:
-`
-.one-<%component%> {
+`.one-<%component%> {
 
 }
 `
@@ -43,16 +40,14 @@ exports.entryStyle = {
 exports.entryStyleIndex = {
   path: 'packages/<%component%>/style/index.scss',
   temp:
-`
-@import "./<%component%>.scss";
+`@import "./<%component%>.scss";
 `
 }
 
 exports.page = {
   path: 'packages/<%component%>/src/<%component%>.tsx',
   temp:
-`
-import { Component, Prop, Vue } from 'vue-property-decorator';
+`import { Component, Prop, Vue } from 'vue-property-decorator';
 import { <%COMPONENT%>Options } from './types';
 
 @Component({
@@ -124,8 +119,7 @@ exports.example = {
 exports.types = {
   path: 'types/<%component%>.d.ts',
   temp:
-`
-import Vue from 'vue';
+`import Vue from 'vue';
 import { OneUIComponent } from './common';
 
 declare class One<%COMPONENT%> extends OneUIComponent {

@@ -1,10 +1,10 @@
 <template>
   <div class="common-demo-block">
-    <div class="source">
+    <img class="demo-block-control" @click="isExpanded = !isExpanded" src="https://gw.alipayobjects.com/zos/rmsportal/wSAkBuJFbdxsosKKpqyq.svg">
+    <div class="source" ref="source">
       <slot name="source"></slot>
-      <img class="demo-block-control" @click="isExpanded = !isExpanded" src="https://gw.alipayobjects.com/zos/rmsportal/wSAkBuJFbdxsosKKpqyq.svg">
     </div>
-    <div class="meta" :style="{ height: isExpanded ? 0: 'auto' }">
+    <div class="meta" :style="{ height: isExpanded ? sourceRefHeight: 'auto' }">
       <div class="desc" v-if="$slots.default">
         <slot></slot>
       </div>
@@ -24,6 +24,7 @@ import { Vue, Component, Watch } from 'vue-property-decorator';
 export default class DemoBlock extends Vue {
   private isExpanded: boolean = true;
   private expandLabel = '<>';
+  private sourceRefHeight: string = '200px';
 
   private renderAnchorHref() {
     const anchors = document.querySelectorAll('h2 a, h3 a, h4 a, h5 a');
@@ -38,12 +39,17 @@ export default class DemoBlock extends Vue {
 
   private mounted() {
     this.renderAnchorHref();
+
+    const sourceRef = this.$refs.source as HTMLDivElement;
+    this.sourceRefHeight = sourceRef.getBoundingClientRect().height + 'px';
   }
 }
 </script>
 
 <style lang="scss">
 .common-demo-block {
+  position: relative;
+  display: flex;
   transition: 0.2s;
   box-shadow: 0 0 8px 0 rgba(232, 237, 250, 0.6),
       0 2px 4px 0 rgba(232, 237, 250, 0.5);
@@ -53,27 +59,29 @@ export default class DemoBlock extends Vue {
   .demo-button {
     float: right;
   }
+  img.demo-block-control {
+    position: absolute;
+    right: -8px;
+    bottom: 0;
+    cursor: pointer;
+    font-size: 16px;
+    transform: translateX(-30px);
+    width: 18px;
+    height: 18px;
+    line-height: 44px;
+    transition: 0.3s;
+    display: inline-block;
+  }
   .source {
+    flex: 4;
     padding: 24px;
-    position: relative;
-    > img.demo-block-control {
-      position: absolute;
-      right: 0;
-      cursor: pointer;
-      font-size: 16px;
-      transform: translateX(-30px);
-      width: 18px;
-      height: 18px;
-      line-height: 44px;
-      transition: 0.3s;
-      display: inline-block;
-    }
+    border-right: 1px solid #eaeefb;
   }
   .meta {
+    flex: 3;
     background-color: #fafafa;
     border-top: solid 1px #eaeefb;
     overflow: hidden;
-    height: 0;
     transition: height 0.2s;
   }
   .desc {

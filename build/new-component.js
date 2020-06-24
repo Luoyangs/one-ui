@@ -1,7 +1,7 @@
 const fs = require('fs')
 const path = require('path')
 const writeFile = require('write')
-const { lowerhyphenate, uppercamelcase, resolve } = require('./utils')
+const { lowerhyphenate, uppercamelcase, resolve, getComponentList } = require('./utils')
 const componentTemplate = require('./template/component.template')
 const combinationTemplate = require('./template/combination.template')
 
@@ -13,9 +13,7 @@ if (!componentName) {
 }
 
 // check componentA exist
-const packagePath = path.join(__dirname, '../packages')
-const components = fs.readdirSync(packagePath, 'utf-8')
-  .filter(name => !!name && !name.endsWith('.ts'))
+const components = getComponentList();
 if (components.includes(componentName)) {
   console.error(`${componentName} has already exist.`)
   process.exit(1)

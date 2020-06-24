@@ -3,8 +3,9 @@ import Vue from 'vue';
 export { default as Avatar } from './avatar';
 export { default as Button } from './button';
 export { default as Card } from './card';
-export { default as Icon } from './icon';
 export { default as Grid } from './grid';
+export { default as Icon } from './icon';
+export { default as Input } from './input';
 // <% combination temp end %>
 
 export interface InstallationOptions {

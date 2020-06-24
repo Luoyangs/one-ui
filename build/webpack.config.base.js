@@ -84,7 +84,8 @@ module.exports = {
       [packageName]: resolve('src'),
       '@public': resolve('public'),
       '@src': resolve('src'),
-      '@config': resolve('config')
+      '@config': resolve('config'),
+      '@svg': resolve('packages/icon/svg')
     }
   },
   plugins: [

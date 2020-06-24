@@ -11,7 +11,8 @@ $primary: #009688;
   .one-card {
     width: 240px;
     float: left;
-    margin-right: 20px;
+    margin-right: 16px;
+    margin-bottom: 16px;
   }
   .color-table {
     th, td {
@@ -64,8 +65,8 @@ $primary: #009688;
   }
   .icon-example .one-icon {
     position: relative;
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -126,5 +127,9 @@ $primary: #009688;
         background: rgba($color: #009688, $alpha: .15);
       }
     }
+  }
+  .one-input {
+    margin-bottom: 16px;
+    max-width: 360px;
   }
 }

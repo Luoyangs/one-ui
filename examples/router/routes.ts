@@ -26,6 +26,9 @@ export const componentsRouterConfig: RouteConfig[] = [
 }, {
   path: '/grid',
   component: () => import(/* webpackChunkName: "grid" */ '../docs/general/grid.md')
+}, {
+  path: '/input',
+  component: () => import(/* webpackChunkName: "input" */ '../docs/data-entry/input.md')
     // <% component temp position %>
   }
 ];

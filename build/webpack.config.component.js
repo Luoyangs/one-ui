@@ -2,14 +2,12 @@ const fs = require('fs')
 const path = require('path')
 const merge = require('webpack-merge')
 const webpackProdConfig = require('./webpack.config.prod')
-const { resolve } = require('./utils')
+const { resolve, getComponentList } = require('./utils')
 const packageName = require('../package.json').name
 const config = require('../config')
 const assetsRoot = config.build.assetsRoot
 
-const packagePath = path.join(__dirname, '../packages')
-const components = fs.readdirSync(packagePath, 'utf-8')
-  .filter(name => !!name && !name.endsWith('.ts'))
+const components = getComponentList()
 
 const componentEntries = {}
 components.forEach(component => {

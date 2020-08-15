@@ -145,7 +145,7 @@ export default class OneInput extends Vue {
 
     this.$nextTick(() => {
       this.resizeTextarea();
-    })
+    });
   }
 
   private handleTogglePassword() {

@@ -6,6 +6,7 @@ Card,
 Grid,
 Icon,
 Input,
+Popper,
   // <% combination temp end %>
 } from '../packages';
 import { VueConstructor } from 'vue';
@@ -18,6 +19,7 @@ Card,
 Grid,
 Icon,
 Input,
+Popper,
   // <% combination temp end %>
 ];
 
@@ -37,6 +39,7 @@ Card,
 Grid,
 Icon,
 Input,
+Popper,
   // <% combination temp end %>
 };
 
@@ -48,6 +51,7 @@ Card,
 Grid,
 Icon,
 Input,
+Popper,
   // <% combination temp end %>
   install
 };

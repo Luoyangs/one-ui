@@ -64,6 +64,7 @@
         </dd>
         <dd>Feedback
           <ul class="sub-list">
+            <li><router-link to="/popper">Popper</router-link></li>
             <li><router-link to="/modal">Modal</router-link></li>
             <li><router-link to="/notify">Notify</router-link></li>
             <li><router-link to="/toast">Toast</router-link></li>

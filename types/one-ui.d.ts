@@ -6,6 +6,7 @@ export { default as Card } from './card';
 export { default as Grid } from './grid';
 export { default as Icon } from './icon';
 export { default as Input } from './input';
+export { default as Popper } from './popper';
 // <% combination temp end %>
 
 export interface InstallationOptions {

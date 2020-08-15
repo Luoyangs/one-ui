@@ -1,0 +1,56 @@
+$popper-shadow: 0 0 8px 0 rgba(0, 0, 0, .09), 0 8px 8px 0 rgba(0, 0, 0, .05);
+
+.one-popper {
+  padding: 4px 8px;
+  background-color: $black;
+  border-radius: 4px;
+  box-shadow: $popper-shadow;
+  color: $white;
+
+  &.show {
+    display: block;
+  }
+
+  &.hidden {
+    display: none;
+  }
+
+  &__arrow,
+  &__arrow::before {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    z-index: -1;
+  }
+
+  &__arrow::before {
+    content: '';
+    transform: rotate(45deg);
+    background: $black;
+  }
+
+  &[data-popper-placement^='bottom'] .one-popper__arrow {
+    top: -4px;
+  }
+
+  &[data-popper-placement^='top'] .one-popper__arrow {
+    bottom: -4px;
+  }
+
+  &[data-popper-placement^='left'] .one-popper__arrow {
+    right: -4px;
+  }
+
+  &[data-popper-placement^='right'] .one-popper__arrow {
+    left: -4px;
+  }
+
+  &.light-theme {
+    background: $white;
+    color: $text-primary;
+
+    .one-popper__arrow::before {
+      background: $white;
+    }
+  }
+}

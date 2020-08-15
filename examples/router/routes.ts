@@ -29,6 +29,9 @@ export const componentsRouterConfig: RouteConfig[] = [
 }, {
   path: '/input',
   component: () => import(/* webpackChunkName: "input" */ '../docs/data-entry/input.md')
+}, {
+  path: '/popper',
+  component: () => import(/* webpackChunkName: "popper" */ '../docs/feedback/popper.md')
     // <% component temp position %>
   }
 ];

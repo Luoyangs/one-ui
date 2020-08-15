@@ -132,4 +132,11 @@ $primary: #009688;
     margin-bottom: 16px;
     max-width: 360px;
   }
+  .box {
+    margin-top: 24px;
+    width: 150px;
+    height: 150px;
+    color: $primary;
+    border: 1px solid $primary;
+  }
 }

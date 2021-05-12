@@ -1,11 +1,12 @@
 
-import { Component, Prop, Vue } from 'vue-property-decorator';
+import { Component, Prop } from 'vue-property-decorator';
+import * as tsx from 'vue-tsx-support';
 import { CardOptions } from './types';
 
 @Component({
-  name: 'OneCard'
+  name: 'OneCard',
 })
-export default class OneCard extends Vue {
+export default class OneCard extends tsx.Component<CardOptions> {
   @Prop(String)
   private title: Pick<CardOptions, 'title'>;
 

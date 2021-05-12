@@ -3,6 +3,7 @@
     "target": "es6",
     "module": "esnext",
     "jsx": "preserve",
+    "jsxFactory": "VueTsxSupport",
     "allowJs": true,
     "noImplicitAny": false,
     "inlineSourceMap": false,
@@ -43,5 +44,10 @@
     "*.config.js",
     "**/icon/update.js",
     "**/icon/svg/index.js"
+  ],
+  "include": [
+    "./src/",
+    "node_modules/vue-tsx-support/enable-check.d.ts",
+    "node_modules/vue-tsx-support/options/allow-unknown-props.d.ts",
   ]
 }

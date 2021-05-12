@@ -1,62 +1,67 @@
-import { VNodeData } from 'vue';
+import { VNodeData, CreateElement } from 'vue';
 import { Component, Prop, Model, Vue } from 'vue-property-decorator';
-import { COMPONENTS_SIZE } from '@src/constants/size';
+import * as tsx from 'vue-tsx-support';
+import { COMPONENTS_SIZE, ComponentSize } from '@src/constants/size';
 import { calcTextareaHeight } from '../util';
 import { InputOptions } from './types';
+import { Icon as OneIcon } from 'one-ui';
 import closeIcon from '@svg/round-close.svg';
 import invisibleIcon from '@svg/invisible.svg';
 import viewIcon from '@svg/view.svg';
 const prefixClass = 'one-input';
 
 @Component({
-  name: 'OneInput'
+  name: 'OneInput',
+  components: {
+    OneIcon
+  }
 })
-export default class OneInput extends Vue {
+export default class OneInput extends tsx.Component<InputOptions> {
   @Model('value-change', { type: [String, Number]})
-  private value: Pick<InputOptions, 'value'>;
+  private value: string | number;
   @Prop({
     type: String,
     default: 'text'
   })
-  private type: Pick<InputOptions, 'type'>;
+  private type: string;
   @Prop({
     type: String,
     default: 'normal',
     validator: (val: string) => COMPONENTS_SIZE.includes(val)
   })
-  private size: Pick<InputOptions, 'size'>;
+  size: ComponentSize;
   @Prop(String)
-  private placeholder: Pick<InputOptions, 'placeholder'>;
+  private placeholder: string;
   @Prop(String)
-  private prefixIcon: Pick<InputOptions, 'prefixIcon'>;
+  private prefixIcon: string;
   @Prop(String)
-  private suffixIcon: Pick<InputOptions, 'suffixIcon'>;
+  private suffixIcon: string;
   @Prop(String)
-  private prefixLabel: Pick<InputOptions, 'prefixLabel'>;
+  private prefixLabel: string;
   @Prop(String)
-  private suffixLabel: Pick<InputOptions, 'suffixLabel'>;
+  private suffixLabel: string;
   @Prop(Boolean)
-  private clearable: Pick<InputOptions, 'clearable'>;
+  private clearable: boolean;
   @Prop(Boolean)
-  private disabled: Pick<InputOptions, 'disabled'>;
+  private disabled: boolean;
   @Prop(Boolean)
-  private showWordLimit: Pick<InputOptions, 'showWordLimit'>;
+  private showWordLimit: boolean;
   @Prop(Boolean)
-  private autosize: Pick<InputOptions, 'autosize'>;
+  private autosize: boolean;
   @Prop(Number)
-  private maxLength: Pick<InputOptions, 'maxLength'>;
+  private maxLength: number;
   @Prop(Number)
-  private maxrows: Pick<InputOptions, 'maxrows'>;
+  private maxrows: number;
   @Prop(Number)
-  private minrows: Pick<InputOptions, 'minrows'>;
+  private minrows: number;
   @Prop(Number)
-  private rows: Pick<InputOptions, 'rows'>;
+  private rows: number;
   @Prop({
     type: String,
     default: 'vertical',
     validator: (val: string) => ['vertical', 'both', 'horizontal', 'none'].includes(val)
   })
-  private resize: Pick<InputOptions, 'resize'>;
+  private resize: string;
 
   private acturalListeners: any = {};
   /**
@@ -261,7 +266,7 @@ export default class OneInput extends Vue {
           click: handleTogglePassword
         }
       } as VNodeData;
-      suffix.children.push(<one-icon {...viewProps}></one-icon>);
+      suffix.children.push(<OneIcon {...viewProps} />);
     }
 
     if (clearable) {
@@ -274,7 +279,7 @@ export default class OneInput extends Vue {
           click: handleClear
         }
       } as VNodeData;
-      suffix.children.push(<one-icon {...clearProps}></one-icon>);
+      suffix.children.push(<OneIcon {...clearProps} />);
     }
     if (!isTextarea && suffixLabel) {
       const suffixSplitClass = `${prefixClass}__suffix-split`;
@@ -285,7 +290,7 @@ export default class OneInput extends Vue {
     }
     if (!isTextarea && suffixIcon) {
       const suffixIconClass = `${prefixClass}__suffix-icon`;
-      suffix.children.push(<one-icon svg={suffixIcon} class={suffixIconClass}></one-icon>);
+      suffix.children.push(<OneIcon svg={suffixIcon} class={suffixIconClass} />);
     } else if (!isTextarea && this.$slots.suffix) {
       suffix.children.push(this.$slots.suffix[0]);
     }
@@ -294,7 +299,19 @@ export default class OneInput extends Vue {
   }
 
   private renderBasicInput() {
-    const { realType, inputClass, activeClearBtnClass, currentValue, placeholder, nativeProps, acturalListeners, handleFocus, handleBlur, handleInput, handleChange } = this;
+    const {
+      realType,
+      inputClass,
+      activeClearBtnClass,
+      currentValue,
+      placeholder,
+      nativeProps,
+      acturalListeners,
+      handleFocus,
+      handleBlur,
+      handleInput,
+      handleChange
+    } = this;
     const inputProps = {
       class: `${prefixClass}__input`,
       ref: 'text',

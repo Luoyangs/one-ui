@@ -1,11 +1,12 @@
 import { Component, Prop, Vue } from 'vue-property-decorator';
+import * as tsx from 'vue-tsx-support';
 import { IconOptions } from './types';
 
 @Component({
   name: 'OneIcon'
 })
-export default class OneIcon extends Vue {
-  @Prop(String) private svg: Pick<IconOptions, 'svg'>;
+export default class OneIcon extends tsx.Component<IconOptions> {
+  @Prop(String) private svg: string;
 
   render() {
     // domPropsInnerHTML like v-html

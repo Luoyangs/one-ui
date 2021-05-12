@@ -8,6 +8,7 @@ module.exports = md => {
       return params.trim().match(/^demo\s*(.*)$/)
     },
     render(tokens, idx) {
+      console.log('tokens', tokens)
       const token = tokens[idx];
       // info 表示三个反引号后面跟的那个字符串
       const info = token && token.info.trim().match(/^demo\s*(.*)$/)

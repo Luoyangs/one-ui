@@ -1,0 +1,820 @@
+[2021-05-12T09:43:39.377Z] [global] Found /Users/luosirs/.npmrc
+[2021-05-12T09:43:39.379Z] [global] Detected 0 occurrences in /Users/luosirs/.npmrc
+[2021-05-12T09:43:39.379Z] [global] Found /Users/luosirs/.yarnrc
+[2021-05-12T09:43:39.381Z] [global] Detected 0 occurrences in /Users/luosirs/.yarnrc
+[2021-05-12T09:43:43.426Z] [replaceSafe] Found /Users/luosirs/www/one-ui/.npmrc
+[2021-05-12T09:43:43.426Z] [replaceSafe] Processing /Users/luosirs/www/one-ui/.npmrc using .npmrc function
+[2021-05-12T09:43:43.448Z] [replaceSafe] Replaced 0 occurrences in /Users/luosirs/www/one-ui/.npmrc
+[2021-05-12T09:43:43.448Z] [replaceSafe] Found /Users/luosirs/www/one-ui/package.json
+[2021-05-12T09:43:43.448Z] [replaceSafe] Processing /Users/luosirs/www/one-ui/package.json using package.json function
+[2021-05-12T09:43:43.459Z] [replaceSafe] Replaced 0 occurrences in /Users/luosirs/www/one-ui/package.json
+[2021-05-12T09:43:43.459Z] [replaceSafe] Found /Users/luosirs/www/one-ui/yarn.lock
+[2021-05-12T09:43:43.460Z] [replaceSafe] Processing /Users/luosirs/www/one-ui/yarn.lock using yarn.lock function
+[2021-05-12T09:43:43.603Z] [replaceSafe] Replaced 1263 occurrences in /Users/luosirs/www/one-ui/yarn.lock
+[2021-05-12T09:43:43.604Z] [replaceSafe] Found /Users/luosirs/www/one-ui/icon/package.json
+[2021-05-12T09:43:43.604Z] [replaceSafe] Processing /Users/luosirs/www/one-ui/icon/package.json using package.json function
+[2021-05-12T09:43:43.604Z] [replaceSafe] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/package.json
+[2021-05-12T09:43:43.613Z] [replacePattern] Found /Users/luosirs/www/one-ui/.browserslistrc
+[2021-05-12T09:43:43.613Z] [replacePattern] Processing /Users/luosirs/www/one-ui/.browserslistrc
+[2021-05-12T09:43:43.621Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/.browserslistrc
+[2021-05-12T09:43:43.622Z] [replacePattern] Found /Users/luosirs/www/one-ui/.editorconfig
+[2021-05-12T09:43:43.622Z] [replacePattern] Processing /Users/luosirs/www/one-ui/.editorconfig
+[2021-05-12T09:43:43.624Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/.editorconfig
+[2021-05-12T09:43:43.624Z] [replacePattern] Found /Users/luosirs/www/one-ui/.eslintignore
+[2021-05-12T09:43:43.624Z] [replacePattern] Processing /Users/luosirs/www/one-ui/.eslintignore
+[2021-05-12T09:43:43.625Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/.eslintignore
+[2021-05-12T09:43:43.625Z] [replacePattern] Found /Users/luosirs/www/one-ui/.eslintrc.js
+[2021-05-12T09:43:43.625Z] [replacePattern] Processing /Users/luosirs/www/one-ui/.eslintrc.js
+[2021-05-12T09:43:43.625Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/.eslintrc.js
+[2021-05-12T09:43:43.625Z] [replacePattern] Found /Users/luosirs/www/one-ui/.gitignore
+[2021-05-12T09:43:43.626Z] [replacePattern] Processing /Users/luosirs/www/one-ui/.gitignore
+[2021-05-12T09:43:43.626Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/.gitignore
+[2021-05-12T09:43:43.626Z] [replacePattern] Found /Users/luosirs/www/one-ui/.npmrc
+[2021-05-12T09:43:43.626Z] [replacePattern] Processing /Users/luosirs/www/one-ui/.npmrc
+[2021-05-12T09:43:43.626Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/.npmrc
+[2021-05-12T09:43:43.626Z] [replacePattern] Found /Users/luosirs/www/one-ui/.prettierrc.js
+[2021-05-12T09:43:43.626Z] [replacePattern] Processing /Users/luosirs/www/one-ui/.prettierrc.js
+[2021-05-12T09:43:43.627Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/.prettierrc.js
+[2021-05-12T09:43:43.627Z] [replacePattern] Found /Users/luosirs/www/one-ui/.svgo.yml
+[2021-05-12T09:43:43.627Z] [replacePattern] Processing /Users/luosirs/www/one-ui/.svgo.yml
+[2021-05-12T09:43:43.627Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/.svgo.yml
+[2021-05-12T09:43:43.627Z] [replacePattern] Found /Users/luosirs/www/one-ui/README.md
+[2021-05-12T09:43:43.627Z] [replacePattern] Processing /Users/luosirs/www/one-ui/README.md
+[2021-05-12T09:43:43.628Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/README.md
+[2021-05-12T09:43:43.628Z] [replacePattern] Found /Users/luosirs/www/one-ui/babel.config.js
+[2021-05-12T09:43:43.628Z] [replacePattern] Processing /Users/luosirs/www/one-ui/babel.config.js
+[2021-05-12T09:43:43.629Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/babel.config.js
+[2021-05-12T09:43:43.629Z] [replacePattern] Found /Users/luosirs/www/one-ui/favicon.ico
+[2021-05-12T09:43:43.629Z] [replacePattern] Processing /Users/luosirs/www/one-ui/favicon.ico
+[2021-05-12T09:43:43.629Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/favicon.ico
+[2021-05-12T09:43:43.629Z] [replacePattern] Found /Users/luosirs/www/one-ui/package.json
+[2021-05-12T09:43:43.629Z] [replacePattern] Processing /Users/luosirs/www/one-ui/package.json
+[2021-05-12T09:43:43.630Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/package.json
+[2021-05-12T09:43:43.630Z] [replacePattern] Found /Users/luosirs/www/one-ui/postcss.config.js
+[2021-05-12T09:43:43.630Z] [replacePattern] Processing /Users/luosirs/www/one-ui/postcss.config.js
+[2021-05-12T09:43:43.630Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/postcss.config.js
+[2021-05-12T09:43:43.630Z] [replacePattern] Found /Users/luosirs/www/one-ui/shopee_npm_migration_1620812586926.log
+[2021-05-12T09:43:43.630Z] [replacePattern] Processing /Users/luosirs/www/one-ui/shopee_npm_migration_1620812586926.log
+[2021-05-12T09:43:43.630Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/shopee_npm_migration_1620812586926.log
+[2021-05-12T09:43:43.630Z] [replacePattern] Found /Users/luosirs/www/one-ui/shopee_npm_migration_1620812611043.log
+[2021-05-12T09:43:43.630Z] [replacePattern] Processing /Users/luosirs/www/one-ui/shopee_npm_migration_1620812611043.log
+[2021-05-12T09:43:43.631Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/shopee_npm_migration_1620812611043.log
+[2021-05-12T09:43:43.631Z] [replacePattern] Found /Users/luosirs/www/one-ui/tsconfig.json
+[2021-05-12T09:43:43.631Z] [replacePattern] Processing /Users/luosirs/www/one-ui/tsconfig.json
+[2021-05-12T09:43:43.631Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/tsconfig.json
+[2021-05-12T09:43:43.632Z] [replacePattern] Found /Users/luosirs/www/one-ui/tslint.json
+[2021-05-12T09:43:43.632Z] [replacePattern] Processing /Users/luosirs/www/one-ui/tslint.json
+[2021-05-12T09:43:43.632Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/tslint.json
+[2021-05-12T09:43:43.632Z] [replacePattern] Found /Users/luosirs/www/one-ui/yarn.lock
+[2021-05-12T09:43:43.632Z] [replacePattern] Processing /Users/luosirs/www/one-ui/yarn.lock
+[2021-05-12T09:43:43.633Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/yarn.lock
+[2021-05-12T09:43:43.633Z] [replacePattern] Found /Users/luosirs/www/one-ui/build/build.js
+[2021-05-12T09:43:43.633Z] [replacePattern] Processing /Users/luosirs/www/one-ui/build/build.js
+[2021-05-12T09:43:43.634Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/build/build.js
+[2021-05-12T09:43:43.634Z] [replacePattern] Found /Users/luosirs/www/one-ui/build/dev-client.js
+[2021-05-12T09:43:43.634Z] [replacePattern] Processing /Users/luosirs/www/one-ui/build/dev-client.js
+[2021-05-12T09:43:43.634Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/build/dev-client.js
+[2021-05-12T09:43:43.634Z] [replacePattern] Found /Users/luosirs/www/one-ui/build/dev.js
+[2021-05-12T09:43:43.634Z] [replacePattern] Processing /Users/luosirs/www/one-ui/build/dev.js
+[2021-05-12T09:43:43.635Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/build/dev.js
+[2021-05-12T09:43:43.635Z] [replacePattern] Found /Users/luosirs/www/one-ui/build/merge-md.js
+[2021-05-12T09:43:43.635Z] [replacePattern] Processing /Users/luosirs/www/one-ui/build/merge-md.js
+[2021-05-12T09:43:43.635Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/build/merge-md.js
+[2021-05-12T09:43:43.635Z] [replacePattern] Found /Users/luosirs/www/one-ui/build/new-component.js
+[2021-05-12T09:43:43.635Z] [replacePattern] Processing /Users/luosirs/www/one-ui/build/new-component.js
+[2021-05-12T09:43:43.636Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/build/new-component.js
+[2021-05-12T09:43:43.636Z] [replacePattern] Found /Users/luosirs/www/one-ui/build/text.md
+[2021-05-12T09:43:43.636Z] [replacePattern] Processing /Users/luosirs/www/one-ui/build/text.md
+[2021-05-12T09:43:43.636Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/build/text.md
+[2021-05-12T09:43:43.636Z] [replacePattern] Found /Users/luosirs/www/one-ui/build/webpack.config.base.js
+[2021-05-12T09:43:43.636Z] [replacePattern] Processing /Users/luosirs/www/one-ui/build/webpack.config.base.js
+[2021-05-12T09:43:43.637Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/build/webpack.config.base.js
+[2021-05-12T09:43:43.637Z] [replacePattern] Found /Users/luosirs/www/one-ui/build/webpack.config.component.js
+[2021-05-12T09:43:43.637Z] [replacePattern] Processing /Users/luosirs/www/one-ui/build/webpack.config.component.js
+[2021-05-12T09:43:43.637Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/build/webpack.config.component.js
+[2021-05-12T09:43:43.637Z] [replacePattern] Found /Users/luosirs/www/one-ui/build/webpack.config.dev.js
+[2021-05-12T09:43:43.637Z] [replacePattern] Processing /Users/luosirs/www/one-ui/build/webpack.config.dev.js
+[2021-05-12T09:43:43.638Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/build/webpack.config.dev.js
+[2021-05-12T09:43:43.638Z] [replacePattern] Found /Users/luosirs/www/one-ui/build/webpack.config.prod.js
+[2021-05-12T09:43:43.638Z] [replacePattern] Processing /Users/luosirs/www/one-ui/build/webpack.config.prod.js
+[2021-05-12T09:43:43.638Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/build/webpack.config.prod.js
+[2021-05-12T09:43:43.638Z] [replacePattern] Found /Users/luosirs/www/one-ui/config/index.js
+[2021-05-12T09:43:43.638Z] [replacePattern] Processing /Users/luosirs/www/one-ui/config/index.js
+[2021-05-12T09:43:43.639Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/config/index.js
+[2021-05-12T09:43:43.639Z] [replacePattern] Found /Users/luosirs/www/one-ui/examples/App.vue
+[2021-05-12T09:43:43.639Z] [replacePattern] Processing /Users/luosirs/www/one-ui/examples/App.vue
+[2021-05-12T09:43:43.639Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/examples/App.vue
+[2021-05-12T09:43:43.639Z] [replacePattern] Found /Users/luosirs/www/one-ui/examples/index.html
+[2021-05-12T09:43:43.639Z] [replacePattern] Processing /Users/luosirs/www/one-ui/examples/index.html
+[2021-05-12T09:43:43.640Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/examples/index.html
+[2021-05-12T09:43:43.640Z] [replacePattern] Found /Users/luosirs/www/one-ui/examples/main.ts
+[2021-05-12T09:43:43.640Z] [replacePattern] Processing /Users/luosirs/www/one-ui/examples/main.ts
+[2021-05-12T09:43:43.640Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/examples/main.ts
+[2021-05-12T09:43:43.641Z] [replacePattern] Found /Users/luosirs/www/one-ui/examples/typing.d.ts
+[2021-05-12T09:43:43.641Z] [replacePattern] Processing /Users/luosirs/www/one-ui/examples/typing.d.ts
+[2021-05-12T09:43:43.641Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/examples/typing.d.ts
+[2021-05-12T09:43:43.641Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/README.md
+[2021-05-12T09:43:43.641Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/README.md
+[2021-05-12T09:43:43.642Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/README.md
+[2021-05-12T09:43:43.642Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/module.json
+[2021-05-12T09:43:43.642Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/module.json
+[2021-05-12T09:43:43.642Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/module.json
+[2021-05-12T09:43:43.642Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/package.json
+[2021-05-12T09:43:43.642Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/package.json
+[2021-05-12T09:43:43.642Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/package.json
+[2021-05-12T09:43:43.642Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/update.js
+[2021-05-12T09:43:43.642Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/update.js
+[2021-05-12T09:43:43.643Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/update.js
+[2021-05-12T09:43:43.643Z] [replacePattern] Found /Users/luosirs/www/one-ui/packages/index.ts
+[2021-05-12T09:43:43.643Z] [replacePattern] Processing /Users/luosirs/www/one-ui/packages/index.ts
+[2021-05-12T09:43:43.643Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/packages/index.ts
+[2021-05-12T09:43:43.643Z] [replacePattern] Found /Users/luosirs/www/one-ui/packages/style.scss
+[2021-05-12T09:43:43.643Z] [replacePattern] Processing /Users/luosirs/www/one-ui/packages/style.scss
+[2021-05-12T09:43:43.644Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/packages/style.scss
+[2021-05-12T09:43:43.644Z] [replacePattern] Found /Users/luosirs/www/one-ui/src/index.ts
+[2021-05-12T09:43:43.644Z] [replacePattern] Processing /Users/luosirs/www/one-ui/src/index.ts
+[2021-05-12T09:43:43.644Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/src/index.ts
+[2021-05-12T09:43:43.644Z] [replacePattern] Found /Users/luosirs/www/one-ui/src/jsx.d.ts
+[2021-05-12T09:43:43.644Z] [replacePattern] Processing /Users/luosirs/www/one-ui/src/jsx.d.ts
+[2021-05-12T09:43:43.644Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/src/jsx.d.ts
+[2021-05-12T09:43:43.645Z] [replacePattern] Found /Users/luosirs/www/one-ui/src/typing.d.ts
+[2021-05-12T09:43:43.645Z] [replacePattern] Processing /Users/luosirs/www/one-ui/src/typing.d.ts
+[2021-05-12T09:43:43.645Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/src/typing.d.ts
+[2021-05-12T09:43:43.645Z] [replacePattern] Found /Users/luosirs/www/one-ui/types/avatar.d.ts
+[2021-05-12T09:43:43.645Z] [replacePattern] Processing /Users/luosirs/www/one-ui/types/avatar.d.ts
+[2021-05-12T09:43:43.645Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/types/avatar.d.ts
+[2021-05-12T09:43:43.646Z] [replacePattern] Found /Users/luosirs/www/one-ui/types/button.d.ts
+[2021-05-12T09:43:43.646Z] [replacePattern] Processing /Users/luosirs/www/one-ui/types/button.d.ts
+[2021-05-12T09:43:43.646Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/types/button.d.ts
+[2021-05-12T09:43:43.646Z] [replacePattern] Found /Users/luosirs/www/one-ui/types/card.d.ts
+[2021-05-12T09:43:43.646Z] [replacePattern] Processing /Users/luosirs/www/one-ui/types/card.d.ts
+[2021-05-12T09:43:43.646Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/types/card.d.ts
+[2021-05-12T09:43:43.646Z] [replacePattern] Found /Users/luosirs/www/one-ui/types/common.d.ts
+[2021-05-12T09:43:43.646Z] [replacePattern] Processing /Users/luosirs/www/one-ui/types/common.d.ts
+[2021-05-12T09:43:43.647Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/types/common.d.ts
+[2021-05-12T09:43:43.647Z] [replacePattern] Found /Users/luosirs/www/one-ui/types/grid.d.ts
+[2021-05-12T09:43:43.647Z] [replacePattern] Processing /Users/luosirs/www/one-ui/types/grid.d.ts
+[2021-05-12T09:43:43.647Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/types/grid.d.ts
+[2021-05-12T09:43:43.647Z] [replacePattern] Found /Users/luosirs/www/one-ui/types/icon.d.ts
+[2021-05-12T09:43:43.647Z] [replacePattern] Processing /Users/luosirs/www/one-ui/types/icon.d.ts
+[2021-05-12T09:43:43.648Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/types/icon.d.ts
+[2021-05-12T09:43:43.648Z] [replacePattern] Found /Users/luosirs/www/one-ui/types/index.d.ts
+[2021-05-12T09:43:43.648Z] [replacePattern] Processing /Users/luosirs/www/one-ui/types/index.d.ts
+[2021-05-12T09:43:43.648Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/types/index.d.ts
+[2021-05-12T09:43:43.648Z] [replacePattern] Found /Users/luosirs/www/one-ui/types/input.d.ts
+[2021-05-12T09:43:43.648Z] [replacePattern] Processing /Users/luosirs/www/one-ui/types/input.d.ts
+[2021-05-12T09:43:43.649Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/types/input.d.ts
+[2021-05-12T09:43:43.649Z] [replacePattern] Found /Users/luosirs/www/one-ui/types/one-ui.d.ts
+[2021-05-12T09:43:43.649Z] [replacePattern] Processing /Users/luosirs/www/one-ui/types/one-ui.d.ts
+[2021-05-12T09:43:43.649Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/types/one-ui.d.ts
+[2021-05-12T09:43:43.649Z] [replacePattern] Found /Users/luosirs/www/one-ui/types/popper.d.ts
+[2021-05-12T09:43:43.649Z] [replacePattern] Processing /Users/luosirs/www/one-ui/types/popper.d.ts
+[2021-05-12T09:43:43.650Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/types/popper.d.ts
+[2021-05-12T09:43:43.650Z] [replacePattern] Found /Users/luosirs/www/one-ui/build/md-loader/container.js
+[2021-05-12T09:43:43.650Z] [replacePattern] Processing /Users/luosirs/www/one-ui/build/md-loader/container.js
+[2021-05-12T09:43:43.650Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/build/md-loader/container.js
+[2021-05-12T09:43:43.650Z] [replacePattern] Found /Users/luosirs/www/one-ui/build/md-loader/fence.js
+[2021-05-12T09:43:43.650Z] [replacePattern] Processing /Users/luosirs/www/one-ui/build/md-loader/fence.js
+[2021-05-12T09:43:43.650Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/build/md-loader/fence.js
+[2021-05-12T09:43:43.650Z] [replacePattern] Found /Users/luosirs/www/one-ui/build/md-loader/index.js
+[2021-05-12T09:43:43.651Z] [replacePattern] Processing /Users/luosirs/www/one-ui/build/md-loader/index.js
+[2021-05-12T09:43:43.651Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/build/md-loader/index.js
+[2021-05-12T09:43:43.651Z] [replacePattern] Found /Users/luosirs/www/one-ui/build/md-loader/markdown.js
+[2021-05-12T09:43:43.651Z] [replacePattern] Processing /Users/luosirs/www/one-ui/build/md-loader/markdown.js
+[2021-05-12T09:43:43.651Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/build/md-loader/markdown.js
+[2021-05-12T09:43:43.651Z] [replacePattern] Found /Users/luosirs/www/one-ui/build/md-loader/util.js
+[2021-05-12T09:43:43.651Z] [replacePattern] Processing /Users/luosirs/www/one-ui/build/md-loader/util.js
+[2021-05-12T09:43:43.652Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/build/md-loader/util.js
+[2021-05-12T09:43:43.652Z] [replacePattern] Found /Users/luosirs/www/one-ui/build/template/combination.template.js
+[2021-05-12T09:43:43.652Z] [replacePattern] Processing /Users/luosirs/www/one-ui/build/template/combination.template.js
+[2021-05-12T09:43:43.652Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/build/template/combination.template.js
+[2021-05-12T09:43:43.652Z] [replacePattern] Found /Users/luosirs/www/one-ui/build/template/component.template.js
+[2021-05-12T09:43:43.652Z] [replacePattern] Processing /Users/luosirs/www/one-ui/build/template/component.template.js
+[2021-05-12T09:43:43.653Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/build/template/component.template.js
+[2021-05-12T09:43:43.653Z] [replacePattern] Found /Users/luosirs/www/one-ui/build/utils/index.js
+[2021-05-12T09:43:43.653Z] [replacePattern] Processing /Users/luosirs/www/one-ui/build/utils/index.js
+[2021-05-12T09:43:43.653Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/build/utils/index.js
+[2021-05-12T09:43:43.654Z] [replacePattern] Found /Users/luosirs/www/one-ui/examples/common/demo-block.vue
+[2021-05-12T09:43:43.654Z] [replacePattern] Processing /Users/luosirs/www/one-ui/examples/common/demo-block.vue
+[2021-05-12T09:43:43.654Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/examples/common/demo-block.vue
+[2021-05-12T09:43:43.654Z] [replacePattern] Found /Users/luosirs/www/one-ui/examples/common/index.ts
+[2021-05-12T09:43:43.654Z] [replacePattern] Processing /Users/luosirs/www/one-ui/examples/common/index.ts
+[2021-05-12T09:43:43.655Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/examples/common/index.ts
+[2021-05-12T09:43:43.655Z] [replacePattern] Found /Users/luosirs/www/one-ui/examples/common/left-menu.vue
+[2021-05-12T09:43:43.655Z] [replacePattern] Processing /Users/luosirs/www/one-ui/examples/common/left-menu.vue
+[2021-05-12T09:43:43.656Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/examples/common/left-menu.vue
+[2021-05-12T09:43:43.656Z] [replacePattern] Found /Users/luosirs/www/one-ui/examples/common/main-header.vue
+[2021-05-12T09:43:43.656Z] [replacePattern] Processing /Users/luosirs/www/one-ui/examples/common/main-header.vue
+[2021-05-12T09:43:43.656Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/examples/common/main-header.vue
+[2021-05-12T09:43:43.656Z] [replacePattern] Found /Users/luosirs/www/one-ui/examples/router/index.ts
+[2021-05-12T09:43:43.657Z] [replacePattern] Processing /Users/luosirs/www/one-ui/examples/router/index.ts
+[2021-05-12T09:43:43.657Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/examples/router/index.ts
+[2021-05-12T09:43:43.657Z] [replacePattern] Found /Users/luosirs/www/one-ui/examples/router/routes.ts
+[2021-05-12T09:43:43.657Z] [replacePattern] Processing /Users/luosirs/www/one-ui/examples/router/routes.ts
+[2021-05-12T09:43:43.657Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/examples/router/routes.ts
+[2021-05-12T09:43:43.657Z] [replacePattern] Found /Users/luosirs/www/one-ui/examples/styles/index.scss
+[2021-05-12T09:43:43.657Z] [replacePattern] Processing /Users/luosirs/www/one-ui/examples/styles/index.scss
+[2021-05-12T09:43:43.658Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/examples/styles/index.scss
+[2021-05-12T09:43:43.658Z] [replacePattern] Found /Users/luosirs/www/one-ui/examples/styles/md.scss
+[2021-05-12T09:43:43.658Z] [replacePattern] Processing /Users/luosirs/www/one-ui/examples/styles/md.scss
+[2021-05-12T09:43:43.658Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/examples/styles/md.scss
+[2021-05-12T09:43:43.658Z] [replacePattern] Found /Users/luosirs/www/one-ui/examples/styles/reset.scss
+[2021-05-12T09:43:43.658Z] [replacePattern] Processing /Users/luosirs/www/one-ui/examples/styles/reset.scss
+[2021-05-12T09:43:43.659Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/examples/styles/reset.scss
+[2021-05-12T09:43:43.659Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/accept-chat.svg
+[2021-05-12T09:43:43.659Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/accept-chat.svg
+[2021-05-12T09:43:43.659Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/accept-chat.svg
+[2021-05-12T09:43:43.659Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/activities.svg
+[2021-05-12T09:43:43.659Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/activities.svg
+[2021-05-12T09:43:43.660Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/activities.svg
+[2021-05-12T09:43:43.660Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/add.svg
+[2021-05-12T09:43:43.660Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/add.svg
+[2021-05-12T09:43:43.660Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/add.svg
+[2021-05-12T09:43:43.660Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/anchor.svg
+[2021-05-12T09:43:43.660Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/anchor.svg
+[2021-05-12T09:43:43.660Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/anchor.svg
+[2021-05-12T09:43:43.660Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/arrange-pick-up.svg
+[2021-05-12T09:43:43.661Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/arrange-pick-up.svg
+[2021-05-12T09:43:43.661Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/arrange-pick-up.svg
+[2021-05-12T09:43:43.661Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/arrow-down-s.svg
+[2021-05-12T09:43:43.661Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/arrow-down-s.svg
+[2021-05-12T09:43:43.661Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/arrow-down-s.svg
+[2021-05-12T09:43:43.661Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/arrow-down.svg
+[2021-05-12T09:43:43.661Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/arrow-down.svg
+[2021-05-12T09:43:43.662Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/arrow-down.svg
+[2021-05-12T09:43:43.662Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/arrow-left.svg
+[2021-05-12T09:43:43.662Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/arrow-left.svg
+[2021-05-12T09:43:43.662Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/arrow-left.svg
+[2021-05-12T09:43:43.662Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/arrow-right.svg
+[2021-05-12T09:43:43.662Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/arrow-right.svg
+[2021-05-12T09:43:43.662Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/arrow-right.svg
+[2021-05-12T09:43:43.663Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/arrow-up-s.svg
+[2021-05-12T09:43:43.663Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/arrow-up-s.svg
+[2021-05-12T09:43:43.663Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/arrow-up-s.svg
+[2021-05-12T09:43:43.663Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/arrow-up.svg
+[2021-05-12T09:43:43.663Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/arrow-up.svg
+[2021-05-12T09:43:43.663Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/arrow-up.svg
+[2021-05-12T09:43:43.664Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/arrow-updown-s.svg
+[2021-05-12T09:43:43.664Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/arrow-updown-s.svg
+[2021-05-12T09:43:43.664Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/arrow-updown-s.svg
+[2021-05-12T09:43:43.664Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/auto-reply.svg
+[2021-05-12T09:43:43.664Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/auto-reply.svg
+[2021-05-12T09:43:43.665Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/auto-reply.svg
+[2021-05-12T09:43:43.665Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/back.svg
+[2021-05-12T09:43:43.665Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/back.svg
+[2021-05-12T09:43:43.665Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/back.svg
+[2021-05-12T09:43:43.665Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/batch-action.svg
+[2021-05-12T09:43:43.665Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/batch-action.svg
+[2021-05-12T09:43:43.665Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/batch-action.svg
+[2021-05-12T09:43:43.665Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/birthday.svg
+[2021-05-12T09:43:43.666Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/birthday.svg
+[2021-05-12T09:43:43.666Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/birthday.svg
+[2021-05-12T09:43:43.666Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/blocked-users.svg
+[2021-05-12T09:43:43.666Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/blocked-users.svg
+[2021-05-12T09:43:43.667Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/blocked-users.svg
+[2021-05-12T09:43:43.667Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/buyer-payment.svg
+[2021-05-12T09:43:43.667Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/buyer-payment.svg
+[2021-05-12T09:43:43.667Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/buyer-payment.svg
+[2021-05-12T09:43:43.667Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/calendar.svg
+[2021-05-12T09:43:43.667Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/calendar.svg
+[2021-05-12T09:43:43.667Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/calendar.svg
+[2021-05-12T09:43:43.667Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/cancel-order.svg
+[2021-05-12T09:43:43.667Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/cancel-order.svg
+[2021-05-12T09:43:43.668Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/cancel-order.svg
+[2021-05-12T09:43:43.668Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/card.svg
+[2021-05-12T09:43:43.668Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/card.svg
+[2021-05-12T09:43:43.668Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/card.svg
+[2021-05-12T09:43:43.668Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/change.svg
+[2021-05-12T09:43:43.668Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/change.svg
+[2021-05-12T09:43:43.669Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/change.svg
+[2021-05-12T09:43:43.669Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/chat-s.svg
+[2021-05-12T09:43:43.669Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/chat-s.svg
+[2021-05-12T09:43:43.669Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/chat-s.svg
+[2021-05-12T09:43:43.669Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/chats.svg
+[2021-05-12T09:43:43.669Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/chats.svg
+[2021-05-12T09:43:43.670Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/chats.svg
+[2021-05-12T09:43:43.670Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/checkbox-checked.svg
+[2021-05-12T09:43:43.670Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/checkbox-checked.svg
+[2021-05-12T09:43:43.670Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/checkbox-checked.svg
+[2021-05-12T09:43:43.670Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/checkbox-no-all.svg
+[2021-05-12T09:43:43.670Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/checkbox-no-all.svg
+[2021-05-12T09:43:43.670Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/checkbox-no-all.svg
+[2021-05-12T09:43:43.670Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/close.svg
+[2021-05-12T09:43:43.670Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/close.svg
+[2021-05-12T09:43:43.671Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/close.svg
+[2021-05-12T09:43:43.671Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/comment.svg
+[2021-05-12T09:43:43.671Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/comment.svg
+[2021-05-12T09:43:43.672Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/comment.svg
+[2021-05-12T09:43:43.672Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/credit-card.svg
+[2021-05-12T09:43:43.672Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/credit-card.svg
+[2021-05-12T09:43:43.672Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/credit-card.svg
+[2021-05-12T09:43:43.672Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/crop.svg
+[2021-05-12T09:43:43.672Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/crop.svg
+[2021-05-12T09:43:43.672Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/crop.svg
+[2021-05-12T09:43:43.672Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/data.svg
+[2021-05-12T09:43:43.672Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/data.svg
+[2021-05-12T09:43:43.673Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/data.svg
+[2021-05-12T09:43:43.673Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/decline.svg
+[2021-05-12T09:43:43.673Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/decline.svg
+[2021-05-12T09:43:43.673Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/decline.svg
+[2021-05-12T09:43:43.673Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/download.svg
+[2021-05-12T09:43:43.673Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/download.svg
+[2021-05-12T09:43:43.673Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/download.svg
+[2021-05-12T09:43:43.673Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/e-receipt.svg
+[2021-05-12T09:43:43.673Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/e-receipt.svg
+[2021-05-12T09:43:43.674Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/e-receipt.svg
+[2021-05-12T09:43:43.674Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/edit.svg
+[2021-05-12T09:43:43.674Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/edit.svg
+[2021-05-12T09:43:43.674Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/edit.svg
+[2021-05-12T09:43:43.674Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/education.svg
+[2021-05-12T09:43:43.674Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/education.svg
+[2021-05-12T09:43:43.674Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/education.svg
+[2021-05-12T09:43:43.674Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/email.svg
+[2021-05-12T09:43:43.674Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/email.svg
+[2021-05-12T09:43:43.675Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/email.svg
+[2021-05-12T09:43:43.675Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/error-s.svg
+[2021-05-12T09:43:43.675Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/error-s.svg
+[2021-05-12T09:43:43.675Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/error-s.svg
+[2021-05-12T09:43:43.675Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/error.svg
+[2021-05-12T09:43:43.675Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/error.svg
+[2021-05-12T09:43:43.675Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/error.svg
+[2021-05-12T09:43:43.675Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/facebook.svg
+[2021-05-12T09:43:43.675Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/facebook.svg
+[2021-05-12T09:43:43.676Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/facebook.svg
+[2021-05-12T09:43:43.676Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/feedback.svg
+[2021-05-12T09:43:43.676Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/feedback.svg
+[2021-05-12T09:43:43.676Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/feedback.svg
+[2021-05-12T09:43:43.676Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/flip-left-and-right.svg
+[2021-05-12T09:43:43.676Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/flip-left-and-right.svg
+[2021-05-12T09:43:43.676Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/flip-left-and-right.svg
+[2021-05-12T09:43:43.676Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/flip-up-and-down.svg
+[2021-05-12T09:43:43.677Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/flip-up-and-down.svg
+[2021-05-12T09:43:43.677Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/flip-up-and-down.svg
+[2021-05-12T09:43:43.677Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/full-screen.svg
+[2021-05-12T09:43:43.677Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/full-screen.svg
+[2021-05-12T09:43:43.678Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/full-screen.svg
+[2021-05-12T09:43:43.678Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/gender.svg
+[2021-05-12T09:43:43.678Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/gender.svg
+[2021-05-12T09:43:43.678Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/gender.svg
+[2021-05-12T09:43:43.678Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/gridview.svg
+[2021-05-12T09:43:43.678Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/gridview.svg
+[2021-05-12T09:43:43.678Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/gridview.svg
+[2021-05-12T09:43:43.678Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/growth.svg
+[2021-05-12T09:43:43.678Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/growth.svg
+[2021-05-12T09:43:43.679Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/growth.svg
+[2021-05-12T09:43:43.679Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/horn-notice-s.svg
+[2021-05-12T09:43:43.679Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/horn-notice-s.svg
+[2021-05-12T09:43:43.679Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/horn-notice-s.svg
+[2021-05-12T09:43:43.679Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/hot-s.svg
+[2021-05-12T09:43:43.679Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/hot-s.svg
+[2021-05-12T09:43:43.679Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/hot-s.svg
+[2021-05-12T09:43:43.679Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/image.svg
+[2021-05-12T09:43:43.679Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/image.svg
+[2021-05-12T09:43:43.680Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/image.svg
+[2021-05-12T09:43:43.680Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/inbox.svg
+[2021-05-12T09:43:43.680Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/inbox.svg
+[2021-05-12T09:43:43.680Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/inbox.svg
+[2021-05-12T09:43:43.680Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/index.js
+[2021-05-12T09:43:43.680Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/index.js
+[2021-05-12T09:43:43.680Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/index.js
+[2021-05-12T09:43:43.680Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/infomation-s.svg
+[2021-05-12T09:43:43.680Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/infomation-s.svg
+[2021-05-12T09:43:43.681Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/infomation-s.svg
+[2021-05-12T09:43:43.681Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/instagram.svg
+[2021-05-12T09:43:43.681Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/instagram.svg
+[2021-05-12T09:43:43.681Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/instagram.svg
+[2021-05-12T09:43:43.681Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/installment.svg
+[2021-05-12T09:43:43.681Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/installment.svg
+[2021-05-12T09:43:43.681Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/installment.svg
+[2021-05-12T09:43:43.681Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/introduction.svg
+[2021-05-12T09:43:43.681Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/introduction.svg
+[2021-05-12T09:43:43.682Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/introduction.svg
+[2021-05-12T09:43:43.682Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/invisible.svg
+[2021-05-12T09:43:43.682Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/invisible.svg
+[2021-05-12T09:43:43.682Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/invisible.svg
+[2021-05-12T09:43:43.682Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/jkopay.svg
+[2021-05-12T09:43:43.682Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/jkopay.svg
+[2021-05-12T09:43:43.683Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/jkopay.svg
+[2021-05-12T09:43:43.683Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/language.svg
+[2021-05-12T09:43:43.683Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/language.svg
+[2021-05-12T09:43:43.683Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/language.svg
+[2021-05-12T09:43:43.683Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/like.svg
+[2021-05-12T09:43:43.683Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/like.svg
+[2021-05-12T09:43:43.684Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/like.svg
+[2021-05-12T09:43:43.684Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/link.svg
+[2021-05-12T09:43:43.684Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/link.svg
+[2021-05-12T09:43:43.684Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/link.svg
+[2021-05-12T09:43:43.684Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/listview.svg
+[2021-05-12T09:43:43.684Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/listview.svg
+[2021-05-12T09:43:43.685Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/listview.svg
+[2021-05-12T09:43:43.685Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/location.svg
+[2021-05-12T09:43:43.685Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/location.svg
+[2021-05-12T09:43:43.685Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/location.svg
+[2021-05-12T09:43:43.685Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/lock-s.svg
+[2021-05-12T09:43:43.685Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/lock-s.svg
+[2021-05-12T09:43:43.686Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/lock-s.svg
+[2021-05-12T09:43:43.686Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/lock.svg
+[2021-05-12T09:43:43.686Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/lock.svg
+[2021-05-12T09:43:43.686Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/lock.svg
+[2021-05-12T09:43:43.686Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/logout.svg
+[2021-05-12T09:43:43.686Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/logout.svg
+[2021-05-12T09:43:43.686Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/logout.svg
+[2021-05-12T09:43:43.686Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/magic-wand.svg
+[2021-05-12T09:43:43.686Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/magic-wand.svg
+[2021-05-12T09:43:43.687Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/magic-wand.svg
+[2021-05-12T09:43:43.687Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/marketting.svg
+[2021-05-12T09:43:43.687Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/marketting.svg
+[2021-05-12T09:43:43.687Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/marketting.svg
+[2021-05-12T09:43:43.687Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/mass-update.svg
+[2021-05-12T09:43:43.687Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/mass-update.svg
+[2021-05-12T09:43:43.687Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/mass-update.svg
+[2021-05-12T09:43:43.688Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/more.svg
+[2021-05-12T09:43:43.688Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/more.svg
+[2021-05-12T09:43:43.688Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/more.svg
+[2021-05-12T09:43:43.688Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/negotiaion.svg
+[2021-05-12T09:43:43.688Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/negotiaion.svg
+[2021-05-12T09:43:43.688Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/negotiaion.svg
+[2021-05-12T09:43:43.688Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/newsletter.svg
+[2021-05-12T09:43:43.688Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/newsletter.svg
+[2021-05-12T09:43:43.689Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/newsletter.svg
+[2021-05-12T09:43:43.689Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/newspaper.svg
+[2021-05-12T09:43:43.689Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/newspaper.svg
+[2021-05-12T09:43:43.689Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/newspaper.svg
+[2021-05-12T09:43:43.689Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/no-change.svg
+[2021-05-12T09:43:43.689Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/no-change.svg
+[2021-05-12T09:43:43.689Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/no-change.svg
+[2021-05-12T09:43:43.689Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/no-data.svg
+[2021-05-12T09:43:43.689Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/no-data.svg
+[2021-05-12T09:43:43.690Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/no-data.svg
+[2021-05-12T09:43:43.690Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/no-image.svg
+[2021-05-12T09:43:43.690Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/no-image.svg
+[2021-05-12T09:43:43.691Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/no-image.svg
+[2021-05-12T09:43:43.691Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/no-order.svg
+[2021-05-12T09:43:43.691Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/no-order.svg
+[2021-05-12T09:43:43.691Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/no-order.svg
+[2021-05-12T09:43:43.691Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/no-permission.svg
+[2021-05-12T09:43:43.691Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/no-permission.svg
+[2021-05-12T09:43:43.692Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/no-permission.svg
+[2021-05-12T09:43:43.692Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/no-product.svg
+[2021-05-12T09:43:43.692Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/no-product.svg
+[2021-05-12T09:43:43.692Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/no-product.svg
+[2021-05-12T09:43:43.692Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/no-promotion.svg
+[2021-05-12T09:43:43.692Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/no-promotion.svg
+[2021-05-12T09:43:43.693Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/no-promotion.svg
+[2021-05-12T09:43:43.693Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/no-rating.svg
+[2021-05-12T09:43:43.693Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/no-rating.svg
+[2021-05-12T09:43:43.693Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/no-rating.svg
+[2021-05-12T09:43:43.693Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/no-result.svg
+[2021-05-12T09:43:43.693Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/no-result.svg
+[2021-05-12T09:43:43.694Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/no-result.svg
+[2021-05-12T09:43:43.694Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/no-store.svg
+[2021-05-12T09:43:43.694Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/no-store.svg
+[2021-05-12T09:43:43.694Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/no-store.svg
+[2021-05-12T09:43:43.694Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/no-transaction.svg
+[2021-05-12T09:43:43.694Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/no-transaction.svg
+[2021-05-12T09:43:43.695Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/no-transaction.svg
+[2021-05-12T09:43:43.695Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/no-voucher.svg
+[2021-05-12T09:43:43.695Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/no-voucher.svg
+[2021-05-12T09:43:43.699Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/no-voucher.svg
+[2021-05-12T09:43:43.699Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/notice-45.svg
+[2021-05-12T09:43:43.699Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/notice-45.svg
+[2021-05-12T09:43:43.700Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/notice-45.svg
+[2021-05-12T09:43:43.700Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/notice-circle-s.svg
+[2021-05-12T09:43:43.700Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/notice-circle-s.svg
+[2021-05-12T09:43:43.701Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/notice-circle-s.svg
+[2021-05-12T09:43:43.701Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/notice-circle.svg
+[2021-05-12T09:43:43.701Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/notice-circle.svg
+[2021-05-12T09:43:43.702Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/notice-circle.svg
+[2021-05-12T09:43:43.702Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/notice-time.svg
+[2021-05-12T09:43:43.702Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/notice-time.svg
+[2021-05-12T09:43:43.703Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/notice-time.svg
+[2021-05-12T09:43:43.703Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/notice-triangle-s.svg
+[2021-05-12T09:43:43.703Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/notice-triangle-s.svg
+[2021-05-12T09:43:43.703Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/notice-triangle-s.svg
+[2021-05-12T09:43:43.704Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/notification.svg
+[2021-05-12T09:43:43.704Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/notification.svg
+[2021-05-12T09:43:43.704Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/notification.svg
+[2021-05-12T09:43:43.705Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/order-details.svg
+[2021-05-12T09:43:43.705Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/order-details.svg
+[2021-05-12T09:43:43.705Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/order-details.svg
+[2021-05-12T09:43:43.705Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/order-history.svg
+[2021-05-12T09:43:43.705Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/order-history.svg
+[2021-05-12T09:43:43.706Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/order-history.svg
+[2021-05-12T09:43:43.706Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/order.svg
+[2021-05-12T09:43:43.706Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/order.svg
+[2021-05-12T09:43:43.706Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/order.svg
+[2021-05-12T09:43:43.706Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/partner-platform.svg
+[2021-05-12T09:43:43.707Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/partner-platform.svg
+[2021-05-12T09:43:43.707Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/partner-platform.svg
+[2021-05-12T09:43:43.707Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/pending.svg
+[2021-05-12T09:43:43.707Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/pending.svg
+[2021-05-12T09:43:43.708Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/pending.svg
+[2021-05-12T09:43:43.708Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/phone.svg
+[2021-05-12T09:43:43.708Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/phone.svg
+[2021-05-12T09:43:43.708Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/phone.svg
+[2021-05-12T09:43:43.708Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/pick-up.svg
+[2021-05-12T09:43:43.708Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/pick-up.svg
+[2021-05-12T09:43:43.709Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/pick-up.svg
+[2021-05-12T09:43:43.709Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/print.svg
+[2021-05-12T09:43:43.709Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/print.svg
+[2021-05-12T09:43:43.709Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/print.svg
+[2021-05-12T09:43:43.710Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/product.svg
+[2021-05-12T09:43:43.710Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/product.svg
+[2021-05-12T09:43:43.710Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/product.svg
+[2021-05-12T09:43:43.710Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/promotion.svg
+[2021-05-12T09:43:43.710Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/promotion.svg
+[2021-05-12T09:43:43.710Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/promotion.svg
+[2021-05-12T09:43:43.710Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/question-mark.svg
+[2021-05-12T09:43:43.711Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/question-mark.svg
+[2021-05-12T09:43:43.711Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/question-mark.svg
+[2021-05-12T09:43:43.711Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/rating.svg
+[2021-05-12T09:43:43.711Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/rating.svg
+[2021-05-12T09:43:43.711Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/rating.svg
+[2021-05-12T09:43:43.711Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/respond.svg
+[2021-05-12T09:43:43.711Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/respond.svg
+[2021-05-12T09:43:43.712Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/respond.svg
+[2021-05-12T09:43:43.712Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/rotate-left.svg
+[2021-05-12T09:43:43.712Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/rotate-left.svg
+[2021-05-12T09:43:43.712Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/rotate-left.svg
+[2021-05-12T09:43:43.712Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/rotate-right.svg
+[2021-05-12T09:43:43.712Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/rotate-right.svg
+[2021-05-12T09:43:43.713Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/rotate-right.svg
+[2021-05-12T09:43:43.713Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/screenshot.svg
+[2021-05-12T09:43:43.713Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/screenshot.svg
+[2021-05-12T09:43:43.713Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/screenshot.svg
+[2021-05-12T09:43:43.714Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/search.svg
+[2021-05-12T09:43:43.714Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/search.svg
+[2021-05-12T09:43:43.715Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/search.svg
+[2021-05-12T09:43:43.715Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/setting.svg
+[2021-05-12T09:43:43.715Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/setting.svg
+[2021-05-12T09:43:43.715Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/setting.svg
+[2021-05-12T09:43:43.715Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/shipping-channel.svg
+[2021-05-12T09:43:43.715Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/shipping-channel.svg
+[2021-05-12T09:43:43.716Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/shipping-channel.svg
+[2021-05-12T09:43:43.716Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/shipping.svg
+[2021-05-12T09:43:43.716Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/shipping.svg
+[2021-05-12T09:43:43.716Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/shipping.svg
+[2021-05-12T09:43:43.716Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/shop.svg
+[2021-05-12T09:43:43.716Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/shop.svg
+[2021-05-12T09:43:43.716Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/shop.svg
+[2021-05-12T09:43:43.716Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/stock-alert.svg
+[2021-05-12T09:43:43.716Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/stock-alert.svg
+[2021-05-12T09:43:43.717Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/stock-alert.svg
+[2021-05-12T09:43:43.717Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/success-s.svg
+[2021-05-12T09:43:43.717Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/success-s.svg
+[2021-05-12T09:43:43.717Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/success-s.svg
+[2021-05-12T09:43:43.717Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/success.svg
+[2021-05-12T09:43:43.717Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/success.svg
+[2021-05-12T09:43:43.717Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/success.svg
+[2021-05-12T09:43:43.717Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/time-s.svg
+[2021-05-12T09:43:43.717Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/time-s.svg
+[2021-05-12T09:43:43.718Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/time-s.svg
+[2021-05-12T09:43:43.718Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/time.svg
+[2021-05-12T09:43:43.718Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/time.svg
+[2021-05-12T09:43:43.718Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/time.svg
+[2021-05-12T09:43:43.718Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/trash.svg
+[2021-05-12T09:43:43.718Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/trash.svg
+[2021-05-12T09:43:43.718Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/trash.svg
+[2021-05-12T09:43:43.718Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/upload.svg
+[2021-05-12T09:43:43.719Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/upload.svg
+[2021-05-12T09:43:43.719Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/upload.svg
+[2021-05-12T09:43:43.719Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/user.svg
+[2021-05-12T09:43:43.719Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/user.svg
+[2021-05-12T09:43:43.719Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/user.svg
+[2021-05-12T09:43:43.719Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/vacation.svg
+[2021-05-12T09:43:43.719Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/vacation.svg
+[2021-05-12T09:43:43.720Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/vacation.svg
+[2021-05-12T09:43:43.720Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/validation.svg
+[2021-05-12T09:43:43.720Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/validation.svg
+[2021-05-12T09:43:43.720Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/validation.svg
+[2021-05-12T09:43:43.720Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/video.svg
+[2021-05-12T09:43:43.720Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/video.svg
+[2021-05-12T09:43:43.721Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/video.svg
+[2021-05-12T09:43:43.721Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/view.svg
+[2021-05-12T09:43:43.721Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/view.svg
+[2021-05-12T09:43:43.722Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/view.svg
+[2021-05-12T09:43:43.722Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/wallet.svg
+[2021-05-12T09:43:43.722Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/wallet.svg
+[2021-05-12T09:43:43.722Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/wallet.svg
+[2021-05-12T09:43:43.722Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/warehouse-update.svg
+[2021-05-12T09:43:43.722Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/warehouse-update.svg
+[2021-05-12T09:43:43.723Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/warehouse-update.svg
+[2021-05-12T09:43:43.723Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/zoom-in.svg
+[2021-05-12T09:43:43.723Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/zoom-in.svg
+[2021-05-12T09:43:43.723Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/zoom-in.svg
+[2021-05-12T09:43:43.723Z] [replacePattern] Found /Users/luosirs/www/one-ui/icon/svg/zoom-out.svg
+[2021-05-12T09:43:43.723Z] [replacePattern] Processing /Users/luosirs/www/one-ui/icon/svg/zoom-out.svg
+[2021-05-12T09:43:43.724Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/icon/svg/zoom-out.svg
+[2021-05-12T09:43:43.724Z] [replacePattern] Found /Users/luosirs/www/one-ui/packages/avatar/README.md
+[2021-05-12T09:43:43.724Z] [replacePattern] Processing /Users/luosirs/www/one-ui/packages/avatar/README.md
+[2021-05-12T09:43:43.724Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/packages/avatar/README.md
+[2021-05-12T09:43:43.724Z] [replacePattern] Found /Users/luosirs/www/one-ui/packages/avatar/index.ts
+[2021-05-12T09:43:43.724Z] [replacePattern] Processing /Users/luosirs/www/one-ui/packages/avatar/index.ts
+[2021-05-12T09:43:43.724Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/packages/avatar/index.ts
+[2021-05-12T09:43:43.724Z] [replacePattern] Found /Users/luosirs/www/one-ui/packages/button/README.md
+[2021-05-12T09:43:43.724Z] [replacePattern] Processing /Users/luosirs/www/one-ui/packages/button/README.md
+[2021-05-12T09:43:43.725Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/packages/button/README.md
+[2021-05-12T09:43:43.725Z] [replacePattern] Found /Users/luosirs/www/one-ui/packages/button/index.ts
+[2021-05-12T09:43:43.725Z] [replacePattern] Processing /Users/luosirs/www/one-ui/packages/button/index.ts
+[2021-05-12T09:43:43.725Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/packages/button/index.ts
+[2021-05-12T09:43:43.725Z] [replacePattern] Found /Users/luosirs/www/one-ui/packages/card/README.md
+[2021-05-12T09:43:43.725Z] [replacePattern] Processing /Users/luosirs/www/one-ui/packages/card/README.md
+[2021-05-12T09:43:43.726Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/packages/card/README.md
+[2021-05-12T09:43:43.726Z] [replacePattern] Found /Users/luosirs/www/one-ui/packages/card/index.ts
+[2021-05-12T09:43:43.726Z] [replacePattern] Processing /Users/luosirs/www/one-ui/packages/card/index.ts
+[2021-05-12T09:43:43.726Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/packages/card/index.ts
+[2021-05-12T09:43:43.726Z] [replacePattern] Found /Users/luosirs/www/one-ui/packages/grid/README.md
+[2021-05-12T09:43:43.726Z] [replacePattern] Processing /Users/luosirs/www/one-ui/packages/grid/README.md
+[2021-05-12T09:43:43.727Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/packages/grid/README.md
+[2021-05-12T09:43:43.727Z] [replacePattern] Found /Users/luosirs/www/one-ui/packages/grid/index.ts
+[2021-05-12T09:43:43.727Z] [replacePattern] Processing /Users/luosirs/www/one-ui/packages/grid/index.ts
+[2021-05-12T09:43:43.727Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/packages/grid/index.ts
+[2021-05-12T09:43:43.727Z] [replacePattern] Found /Users/luosirs/www/one-ui/packages/icon/README.md
+[2021-05-12T09:43:43.727Z] [replacePattern] Processing /Users/luosirs/www/one-ui/packages/icon/README.md
+[2021-05-12T09:43:43.728Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/packages/icon/README.md
+[2021-05-12T09:43:43.728Z] [replacePattern] Found /Users/luosirs/www/one-ui/packages/icon/index.ts
+[2021-05-12T09:43:43.728Z] [replacePattern] Processing /Users/luosirs/www/one-ui/packages/icon/index.ts
+[2021-05-12T09:43:43.728Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/packages/icon/index.ts
+[2021-05-12T09:43:43.728Z] [replacePattern] Found /Users/luosirs/www/one-ui/packages/input/README.md
+[2021-05-12T09:43:43.728Z] [replacePattern] Processing /Users/luosirs/www/one-ui/packages/input/README.md
+[2021-05-12T09:43:43.728Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/packages/input/README.md
+[2021-05-12T09:43:43.729Z] [replacePattern] Found /Users/luosirs/www/one-ui/packages/input/index.ts
+[2021-05-12T09:43:43.729Z] [replacePattern] Processing /Users/luosirs/www/one-ui/packages/input/index.ts
+[2021-05-12T09:43:43.729Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/packages/input/index.ts
+[2021-05-12T09:43:43.729Z] [replacePattern] Found /Users/luosirs/www/one-ui/packages/popper/README.md
+[2021-05-12T09:43:43.729Z] [replacePattern] Processing /Users/luosirs/www/one-ui/packages/popper/README.md
+[2021-05-12T09:43:43.730Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/packages/popper/README.md
+[2021-05-12T09:43:43.730Z] [replacePattern] Found /Users/luosirs/www/one-ui/packages/popper/index.ts
+[2021-05-12T09:43:43.730Z] [replacePattern] Processing /Users/luosirs/www/one-ui/packages/popper/index.ts
+[2021-05-12T09:43:43.730Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/packages/popper/index.ts
+[2021-05-12T09:43:43.730Z] [replacePattern] Found /Users/luosirs/www/one-ui/src/constants/index.ts
+[2021-05-12T09:43:43.730Z] [replacePattern] Processing /Users/luosirs/www/one-ui/src/constants/index.ts
+[2021-05-12T09:43:43.730Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/src/constants/index.ts
+[2021-05-12T09:43:43.730Z] [replacePattern] Found /Users/luosirs/www/one-ui/src/constants/placement.ts
+[2021-05-12T09:43:43.730Z] [replacePattern] Processing /Users/luosirs/www/one-ui/src/constants/placement.ts
+[2021-05-12T09:43:43.731Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/src/constants/placement.ts
+[2021-05-12T09:43:43.731Z] [replacePattern] Found /Users/luosirs/www/one-ui/src/constants/size.ts
+[2021-05-12T09:43:43.731Z] [replacePattern] Processing /Users/luosirs/www/one-ui/src/constants/size.ts
+[2021-05-12T09:43:43.731Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/src/constants/size.ts
+[2021-05-12T09:43:43.731Z] [replacePattern] Found /Users/luosirs/www/one-ui/src/constants/type.ts
+[2021-05-12T09:43:43.731Z] [replacePattern] Processing /Users/luosirs/www/one-ui/src/constants/type.ts
+[2021-05-12T09:43:43.732Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/src/constants/type.ts
+[2021-05-12T09:43:43.732Z] [replacePattern] Found /Users/luosirs/www/one-ui/src/core/index.ts
+[2021-05-12T09:43:43.732Z] [replacePattern] Processing /Users/luosirs/www/one-ui/src/core/index.ts
+[2021-05-12T09:43:43.732Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/src/core/index.ts
+[2021-05-12T09:43:43.732Z] [replacePattern] Found /Users/luosirs/www/one-ui/src/core/package.ts
+[2021-05-12T09:43:43.732Z] [replacePattern] Processing /Users/luosirs/www/one-ui/src/core/package.ts
+[2021-05-12T09:43:43.732Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/src/core/package.ts
+[2021-05-12T09:43:43.732Z] [replacePattern] Found /Users/luosirs/www/one-ui/src/mixins/form-item.ts
+[2021-05-12T09:43:43.732Z] [replacePattern] Processing /Users/luosirs/www/one-ui/src/mixins/form-item.ts
+[2021-05-12T09:43:43.733Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/src/mixins/form-item.ts
+[2021-05-12T09:43:43.733Z] [replacePattern] Found /Users/luosirs/www/one-ui/src/styles/animation.scss
+[2021-05-12T09:43:43.733Z] [replacePattern] Processing /Users/luosirs/www/one-ui/src/styles/animation.scss
+[2021-05-12T09:43:43.733Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/src/styles/animation.scss
+[2021-05-12T09:43:43.733Z] [replacePattern] Found /Users/luosirs/www/one-ui/src/styles/color.scss
+[2021-05-12T09:43:43.733Z] [replacePattern] Processing /Users/luosirs/www/one-ui/src/styles/color.scss
+[2021-05-12T09:43:43.734Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/src/styles/color.scss
+[2021-05-12T09:43:43.734Z] [replacePattern] Found /Users/luosirs/www/one-ui/src/styles/index.scss
+[2021-05-12T09:43:43.734Z] [replacePattern] Processing /Users/luosirs/www/one-ui/src/styles/index.scss
+[2021-05-12T09:43:43.734Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/src/styles/index.scss
+[2021-05-12T09:43:43.734Z] [replacePattern] Found /Users/luosirs/www/one-ui/src/styles/mixin.scss
+[2021-05-12T09:43:43.734Z] [replacePattern] Processing /Users/luosirs/www/one-ui/src/styles/mixin.scss
+[2021-05-12T09:43:43.734Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/src/styles/mixin.scss
+[2021-05-12T09:43:43.734Z] [replacePattern] Found /Users/luosirs/www/one-ui/examples/docs/data-entry/input.md
+[2021-05-12T09:43:43.735Z] [replacePattern] Processing /Users/luosirs/www/one-ui/examples/docs/data-entry/input.md
+[2021-05-12T09:43:43.735Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/examples/docs/data-entry/input.md
+[2021-05-12T09:43:43.735Z] [replacePattern] Found /Users/luosirs/www/one-ui/examples/docs/feedback/popper.md
+[2021-05-12T09:43:43.735Z] [replacePattern] Processing /Users/luosirs/www/one-ui/examples/docs/feedback/popper.md
+[2021-05-12T09:43:43.735Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/examples/docs/feedback/popper.md
+[2021-05-12T09:43:43.736Z] [replacePattern] Found /Users/luosirs/www/one-ui/examples/docs/general/avatar.md
+[2021-05-12T09:43:43.736Z] [replacePattern] Processing /Users/luosirs/www/one-ui/examples/docs/general/avatar.md
+[2021-05-12T09:43:43.736Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/examples/docs/general/avatar.md
+[2021-05-12T09:43:43.736Z] [replacePattern] Found /Users/luosirs/www/one-ui/examples/docs/general/button.md
+[2021-05-12T09:43:43.736Z] [replacePattern] Processing /Users/luosirs/www/one-ui/examples/docs/general/button.md
+[2021-05-12T09:43:43.737Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/examples/docs/general/button.md
+[2021-05-12T09:43:43.737Z] [replacePattern] Found /Users/luosirs/www/one-ui/examples/docs/general/card.md
+[2021-05-12T09:43:43.737Z] [replacePattern] Processing /Users/luosirs/www/one-ui/examples/docs/general/card.md
+[2021-05-12T09:43:43.737Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/examples/docs/general/card.md
+[2021-05-12T09:43:43.737Z] [replacePattern] Found /Users/luosirs/www/one-ui/examples/docs/general/color.md
+[2021-05-12T09:43:43.737Z] [replacePattern] Processing /Users/luosirs/www/one-ui/examples/docs/general/color.md
+[2021-05-12T09:43:43.738Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/examples/docs/general/color.md
+[2021-05-12T09:43:43.738Z] [replacePattern] Found /Users/luosirs/www/one-ui/examples/docs/general/grid.md
+[2021-05-12T09:43:43.738Z] [replacePattern] Processing /Users/luosirs/www/one-ui/examples/docs/general/grid.md
+[2021-05-12T09:43:43.738Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/examples/docs/general/grid.md
+[2021-05-12T09:43:43.738Z] [replacePattern] Found /Users/luosirs/www/one-ui/examples/docs/general/icon.md
+[2021-05-12T09:43:43.738Z] [replacePattern] Processing /Users/luosirs/www/one-ui/examples/docs/general/icon.md
+[2021-05-12T09:43:43.738Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/examples/docs/general/icon.md
+[2021-05-12T09:43:43.738Z] [replacePattern] Found /Users/luosirs/www/one-ui/examples/docs/install/about.md
+[2021-05-12T09:43:43.738Z] [replacePattern] Processing /Users/luosirs/www/one-ui/examples/docs/install/about.md
+[2021-05-12T09:43:43.739Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/examples/docs/install/about.md
+[2021-05-12T09:43:43.739Z] [replacePattern] Found /Users/luosirs/www/one-ui/examples/docs/install/install.md
+[2021-05-12T09:43:43.739Z] [replacePattern] Processing /Users/luosirs/www/one-ui/examples/docs/install/install.md
+[2021-05-12T09:43:43.739Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/examples/docs/install/install.md
+[2021-05-12T09:43:43.739Z] [replacePattern] Found /Users/luosirs/www/one-ui/packages/avatar/src/avatar.tsx
+[2021-05-12T09:43:43.739Z] [replacePattern] Processing /Users/luosirs/www/one-ui/packages/avatar/src/avatar.tsx
+[2021-05-12T09:43:43.739Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/packages/avatar/src/avatar.tsx
+[2021-05-12T09:43:43.739Z] [replacePattern] Found /Users/luosirs/www/one-ui/packages/avatar/src/types.ts
+[2021-05-12T09:43:43.739Z] [replacePattern] Processing /Users/luosirs/www/one-ui/packages/avatar/src/types.ts
+[2021-05-12T09:43:43.740Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/packages/avatar/src/types.ts
+[2021-05-12T09:43:43.740Z] [replacePattern] Found /Users/luosirs/www/one-ui/packages/avatar/style/avatar.scss
+[2021-05-12T09:43:43.740Z] [replacePattern] Processing /Users/luosirs/www/one-ui/packages/avatar/style/avatar.scss
+[2021-05-12T09:43:43.740Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/packages/avatar/style/avatar.scss
+[2021-05-12T09:43:43.740Z] [replacePattern] Found /Users/luosirs/www/one-ui/packages/avatar/style/index.scss
+[2021-05-12T09:43:43.740Z] [replacePattern] Processing /Users/luosirs/www/one-ui/packages/avatar/style/index.scss
+[2021-05-12T09:43:43.741Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/packages/avatar/style/index.scss
+[2021-05-12T09:43:43.741Z] [replacePattern] Found /Users/luosirs/www/one-ui/packages/button/src/button-group.tsx
+[2021-05-12T09:43:43.741Z] [replacePattern] Processing /Users/luosirs/www/one-ui/packages/button/src/button-group.tsx
+[2021-05-12T09:43:43.741Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/packages/button/src/button-group.tsx
+[2021-05-12T09:43:43.741Z] [replacePattern] Found /Users/luosirs/www/one-ui/packages/button/src/button.tsx
+[2021-05-12T09:43:43.741Z] [replacePattern] Processing /Users/luosirs/www/one-ui/packages/button/src/button.tsx
+[2021-05-12T09:43:43.741Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/packages/button/src/button.tsx
+[2021-05-12T09:43:43.741Z] [replacePattern] Found /Users/luosirs/www/one-ui/packages/button/src/types.ts
+[2021-05-12T09:43:43.741Z] [replacePattern] Processing /Users/luosirs/www/one-ui/packages/button/src/types.ts
+[2021-05-12T09:43:43.742Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/packages/button/src/types.ts
+[2021-05-12T09:43:43.742Z] [replacePattern] Found /Users/luosirs/www/one-ui/packages/button/style/button.scss
+[2021-05-12T09:43:43.742Z] [replacePattern] Processing /Users/luosirs/www/one-ui/packages/button/style/button.scss
+[2021-05-12T09:43:43.742Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/packages/button/style/button.scss
+[2021-05-12T09:43:43.742Z] [replacePattern] Found /Users/luosirs/www/one-ui/packages/button/style/index.scss
+[2021-05-12T09:43:43.742Z] [replacePattern] Processing /Users/luosirs/www/one-ui/packages/button/style/index.scss
+[2021-05-12T09:43:43.743Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/packages/button/style/index.scss
+[2021-05-12T09:43:43.743Z] [replacePattern] Found /Users/luosirs/www/one-ui/packages/card/src/card.tsx
+[2021-05-12T09:43:43.743Z] [replacePattern] Processing /Users/luosirs/www/one-ui/packages/card/src/card.tsx
+[2021-05-12T09:43:43.743Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/packages/card/src/card.tsx
+[2021-05-12T09:43:43.743Z] [replacePattern] Found /Users/luosirs/www/one-ui/packages/card/src/types.ts
+[2021-05-12T09:43:43.743Z] [replacePattern] Processing /Users/luosirs/www/one-ui/packages/card/src/types.ts
+[2021-05-12T09:43:43.743Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/packages/card/src/types.ts
+[2021-05-12T09:43:43.743Z] [replacePattern] Found /Users/luosirs/www/one-ui/packages/card/style/card.scss
+[2021-05-12T09:43:43.744Z] [replacePattern] Processing /Users/luosirs/www/one-ui/packages/card/style/card.scss
+[2021-05-12T09:43:43.744Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/packages/card/style/card.scss
+[2021-05-12T09:43:43.744Z] [replacePattern] Found /Users/luosirs/www/one-ui/packages/card/style/index.scss
+[2021-05-12T09:43:43.744Z] [replacePattern] Processing /Users/luosirs/www/one-ui/packages/card/style/index.scss
+[2021-05-12T09:43:43.744Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/packages/card/style/index.scss
+[2021-05-12T09:43:43.744Z] [replacePattern] Found /Users/luosirs/www/one-ui/packages/grid/src/col.tsx
+[2021-05-12T09:43:43.744Z] [replacePattern] Processing /Users/luosirs/www/one-ui/packages/grid/src/col.tsx
+[2021-05-12T09:43:43.745Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/packages/grid/src/col.tsx
+[2021-05-12T09:43:43.745Z] [replacePattern] Found /Users/luosirs/www/one-ui/packages/grid/src/row.tsx
+[2021-05-12T09:43:43.745Z] [replacePattern] Processing /Users/luosirs/www/one-ui/packages/grid/src/row.tsx
+[2021-05-12T09:43:43.745Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/packages/grid/src/row.tsx
+[2021-05-12T09:43:43.745Z] [replacePattern] Found /Users/luosirs/www/one-ui/packages/grid/src/types.ts
+[2021-05-12T09:43:43.745Z] [replacePattern] Processing /Users/luosirs/www/one-ui/packages/grid/src/types.ts
+[2021-05-12T09:43:43.746Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/packages/grid/src/types.ts
+[2021-05-12T09:43:43.746Z] [replacePattern] Found /Users/luosirs/www/one-ui/packages/grid/style/col.scss
+[2021-05-12T09:43:43.746Z] [replacePattern] Processing /Users/luosirs/www/one-ui/packages/grid/style/col.scss
+[2021-05-12T09:43:43.746Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/packages/grid/style/col.scss
+[2021-05-12T09:43:43.746Z] [replacePattern] Found /Users/luosirs/www/one-ui/packages/grid/style/index.scss
+[2021-05-12T09:43:43.746Z] [replacePattern] Processing /Users/luosirs/www/one-ui/packages/grid/style/index.scss
+[2021-05-12T09:43:43.746Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/packages/grid/style/index.scss
+[2021-05-12T09:43:43.746Z] [replacePattern] Found /Users/luosirs/www/one-ui/packages/grid/style/row.scss
+[2021-05-12T09:43:43.746Z] [replacePattern] Processing /Users/luosirs/www/one-ui/packages/grid/style/row.scss
+[2021-05-12T09:43:43.747Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/packages/grid/style/row.scss
+[2021-05-12T09:43:43.747Z] [replacePattern] Found /Users/luosirs/www/one-ui/packages/icon/src/icon.tsx
+[2021-05-12T09:43:43.747Z] [replacePattern] Processing /Users/luosirs/www/one-ui/packages/icon/src/icon.tsx
+[2021-05-12T09:43:43.747Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/packages/icon/src/icon.tsx
+[2021-05-12T09:43:43.747Z] [replacePattern] Found /Users/luosirs/www/one-ui/packages/icon/src/types.ts
+[2021-05-12T09:43:43.747Z] [replacePattern] Processing /Users/luosirs/www/one-ui/packages/icon/src/types.ts
+[2021-05-12T09:43:43.748Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/packages/icon/src/types.ts
+[2021-05-12T09:43:43.748Z] [replacePattern] Found /Users/luosirs/www/one-ui/packages/icon/style/icon.scss
+[2021-05-12T09:43:43.748Z] [replacePattern] Processing /Users/luosirs/www/one-ui/packages/icon/style/icon.scss
+[2021-05-12T09:43:43.748Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/packages/icon/style/icon.scss
+[2021-05-12T09:43:43.748Z] [replacePattern] Found /Users/luosirs/www/one-ui/packages/icon/style/index.scss
+[2021-05-12T09:43:43.748Z] [replacePattern] Processing /Users/luosirs/www/one-ui/packages/icon/style/index.scss
+[2021-05-12T09:43:43.748Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/packages/icon/style/index.scss
+[2021-05-12T09:43:43.748Z] [replacePattern] Found /Users/luosirs/www/one-ui/packages/icon/svg/README.md
+[2021-05-12T09:43:43.748Z] [replacePattern] Processing /Users/luosirs/www/one-ui/packages/icon/svg/README.md
+[2021-05-12T09:43:43.749Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/packages/icon/svg/README.md
+[2021-05-12T09:43:43.749Z] [replacePattern] Found /Users/luosirs/www/one-ui/packages/icon/svg/invisible.svg
+[2021-05-12T09:43:43.749Z] [replacePattern] Processing /Users/luosirs/www/one-ui/packages/icon/svg/invisible.svg
+[2021-05-12T09:43:43.749Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/packages/icon/svg/invisible.svg
+[2021-05-12T09:43:43.749Z] [replacePattern] Found /Users/luosirs/www/one-ui/packages/icon/svg/round-close.svg
+[2021-05-12T09:43:43.749Z] [replacePattern] Processing /Users/luosirs/www/one-ui/packages/icon/svg/round-close.svg
+[2021-05-12T09:43:43.750Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/packages/icon/svg/round-close.svg
+[2021-05-12T09:43:43.750Z] [replacePattern] Found /Users/luosirs/www/one-ui/packages/icon/svg/view.svg
+[2021-05-12T09:43:43.750Z] [replacePattern] Processing /Users/luosirs/www/one-ui/packages/icon/svg/view.svg
+[2021-05-12T09:43:43.750Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/packages/icon/svg/view.svg
+[2021-05-12T09:43:43.750Z] [replacePattern] Found /Users/luosirs/www/one-ui/packages/input/src/input.tsx
+[2021-05-12T09:43:43.750Z] [replacePattern] Processing /Users/luosirs/www/one-ui/packages/input/src/input.tsx
+[2021-05-12T09:43:43.750Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/packages/input/src/input.tsx
+[2021-05-12T09:43:43.750Z] [replacePattern] Found /Users/luosirs/www/one-ui/packages/input/src/types.ts
+[2021-05-12T09:43:43.750Z] [replacePattern] Processing /Users/luosirs/www/one-ui/packages/input/src/types.ts
+[2021-05-12T09:43:43.751Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/packages/input/src/types.ts
+[2021-05-12T09:43:43.751Z] [replacePattern] Found /Users/luosirs/www/one-ui/packages/input/style/index.scss
+[2021-05-12T09:43:43.751Z] [replacePattern] Processing /Users/luosirs/www/one-ui/packages/input/style/index.scss
+[2021-05-12T09:43:43.751Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/packages/input/style/index.scss
+[2021-05-12T09:43:43.751Z] [replacePattern] Found /Users/luosirs/www/one-ui/packages/input/style/input.scss
+[2021-05-12T09:43:43.751Z] [replacePattern] Processing /Users/luosirs/www/one-ui/packages/input/style/input.scss
+[2021-05-12T09:43:43.752Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/packages/input/style/input.scss
+[2021-05-12T09:43:43.752Z] [replacePattern] Found /Users/luosirs/www/one-ui/packages/input/util/index.ts
+[2021-05-12T09:43:43.752Z] [replacePattern] Processing /Users/luosirs/www/one-ui/packages/input/util/index.ts
+[2021-05-12T09:43:43.752Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/packages/input/util/index.ts
+[2021-05-12T09:43:43.752Z] [replacePattern] Found /Users/luosirs/www/one-ui/packages/popper/src/popper.tsx
+[2021-05-12T09:43:43.752Z] [replacePattern] Processing /Users/luosirs/www/one-ui/packages/popper/src/popper.tsx
+[2021-05-12T09:43:43.752Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/packages/popper/src/popper.tsx
+[2021-05-12T09:43:43.752Z] [replacePattern] Found /Users/luosirs/www/one-ui/packages/popper/src/types.ts
+[2021-05-12T09:43:43.752Z] [replacePattern] Processing /Users/luosirs/www/one-ui/packages/popper/src/types.ts
+[2021-05-12T09:43:43.753Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/packages/popper/src/types.ts
+[2021-05-12T09:43:43.753Z] [replacePattern] Found /Users/luosirs/www/one-ui/packages/popper/style/index.scss
+[2021-05-12T09:43:43.753Z] [replacePattern] Processing /Users/luosirs/www/one-ui/packages/popper/style/index.scss
+[2021-05-12T09:43:43.753Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/packages/popper/style/index.scss
+[2021-05-12T09:43:43.753Z] [replacePattern] Found /Users/luosirs/www/one-ui/packages/popper/style/popper.scss
+[2021-05-12T09:43:43.753Z] [replacePattern] Processing /Users/luosirs/www/one-ui/packages/popper/style/popper.scss
+[2021-05-12T09:43:43.754Z] [replacePattern] Replaced 0 occurrences in /Users/luosirs/www/one-ui/packages/popper/style/popper.scss
